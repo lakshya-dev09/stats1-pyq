@@ -96,12 +96,12 @@ export function QuestionCard({ q, index, context, showContext = true }: Props) {
           <Markdown text={q.context} />
         </div>
       )}
+      <Markdown text={q.q} className="qtext" />
       {q.figure && (
         <figure className="qfig">
           <img src={`${base}figs/${q.figure}`} alt="Figure for this question" loading="lazy" />
         </figure>
       )}
-      <Markdown text={q.q} className="qtext" />
 
       {q.type !== 'NAT' && q.options && (
         <>
