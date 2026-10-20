@@ -1,0 +1,226 @@
+{
+  "id": "2026-01-q1",
+  "year": 2026,
+  "term": "Jan",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/1Lww1tJoYajeyzRxT6RaDcEKBg-knouTs/view",
+  "questions": [
+    {
+      "n": 1,
+      "type": "MCQ",
+      "marks": 3,
+      "week": 2,
+      "q": "A group of students were asked about their preferred fruit, and their responses are recorded and shown in Table 1:\n\n| Fruit | Number of Students |\n|---|---|\n| Apple | 10 |\n| Banana | 8 |\n| Orange | 6 |\n| Grapes | 6 |\n\nIdentify the correct pie chart and bar chart based on the given data:",
+      "figure": "2026-01-q1-charts.png",
+      "options": [
+        "Pie Chart A and Bar Chart A",
+        "Pie Chart A and Bar Chart B",
+        "Pie Chart B and Bar Chart A",
+        "Pie Chart B and Bar Chart B"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "n": 2,
+      "type": "MCQ",
+      "marks": 2,
+      "week": 1,
+      "q": "Match the data types listed in Column A with the corresponding measurement scales in Column B, as shown in Table 2.\n\n| | Data (Column A) | | Scale of Measurement (Column B) |\n|---|---|---|---|\n| 1 | Blood groups of students (A, B, AB, O) | A | Ordinal |\n| 2 | Rankings of students in an exam (1st, 2nd, 3rd) | B | Ratio |\n| 3 | Temperature in Celsius | C | Interval |\n| 4 | Weight of students in kg | D | Nominal |",
+      "options": [
+        "1-D, 2-C, 3-B, 4-A",
+        "1-D, 2-C, 3-A, 4-B",
+        "1-D, 2-A, 3-C, 4-B",
+        "1-D, 2-A, 3-B, 4-C"
+      ],
+      "correct": [
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "type": "MSQ",
+      "marks": 2,
+      "week": 2,
+      "q": "Choose the correct statement(s).",
+      "options": [
+        "For representing ordinal data, a Pareto chart is more suitable than a standard bar chart.",
+        "A stacked bar chart can be used to represent the association between two categorical variables.",
+        "A scatter plot can be used to represent the association between two numerical variables.",
+        "A pie chart is more suitable than a bar chart for representing data with a large number of categories."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "note": "Heads-up: a Pareto chart sorts categories by frequency, which breaks the natural order of ordinal data, so option A is debatable. The key above is the one given in the source."
+    },
+    {
+      "n": 4,
+      "type": "MSQ",
+      "marks": 2,
+      "week": 1,
+      "q": "A health research team is studying the dietary quality of residents in a district of Kerala. They randomly selected 150 individuals and assigned each a diet-quality score on a scale from 1 to 5, where\n\n- 1 : Very Unhealthy\n- 2 : Unhealthy\n- 3 : Moderate\n- 4 : Healthy\n- 5 : Very Healthy\n\nBased on this scenario, which of the following statement(s) is/are correct?",
+      "options": [
+        "The sample consists of all residents in that district.",
+        "The diet-quality scores are measured on an ordinal scale.",
+        "The population consists of all residents of the district.",
+        "Concluding that \"residents in the district generally follow a Healthy diet\" is an example of descriptive statistics."
+      ],
+      "correct": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 5,
+      "type": "MSQ",
+      "marks": 2,
+      "week": 1,
+      "q": "Which of the following statement(s) is/are correct?",
+      "options": [
+        "The weight of luggage carried by passengers is a numerical and continuous variable.",
+        "Restaurant ratings (poor, fair, good, excellent) represent a categorical variable.",
+        "The brand of mobile phone used by students is a numerical variable.",
+        "The number of books read by a student in a month is a numerical and discrete variable."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "n": 6,
+      "type": "MSQ",
+      "marks": 2,
+      "week": 4,
+      "q": "Which of the following statement(s) is/are true about the Point Bi-serial correlation coefficient?",
+      "options": [
+        "It is the measure of association between one numerical variable and one binary categorical variable.",
+        "It is the measure of association between two nominal categorical variables.",
+        "It is the measure used only when both variables are continuous.",
+        "It is a special case of the Pearson correlation coefficient."
+      ],
+      "correct": [
+        0,
+        3
+      ]
+    },
+    {
+      "n": 8,
+      "type": "NAT",
+      "marks": 2,
+      "week": 4,
+      "context": "The association between diabetes and heart disease for a sample population of $n = 1000$ is summarized in Table 3.\n\n| | With Diabetes | Without Diabetes |\n|---|---|---|\n| With Heart Disease | 120 | 80 |\n| Without Heart Disease | 180 | 620 |",
+      "q": "Among those diagnosed with heart disease, what is the percentage of those who also have diabetes?",
+      "answer": 60
+    },
+    {
+      "n": 9,
+      "type": "NAT",
+      "marks": 2,
+      "week": 4,
+      "context": "The association between diabetes and heart disease for a sample population of $n = 1000$ is summarized in Table 3.\n\n| | With Diabetes | Without Diabetes |\n|---|---|---|\n| With Heart Disease | 120 | 80 |\n| Without Heart Disease | 180 | 620 |",
+      "q": "Among those who do not have diabetes, what is the percentage of people who have heart disease? Enter the answer correct to two decimal places.",
+      "answer": {
+        "min": 11.4,
+        "max": 11.46
+      }
+    },
+    {
+      "n": 11,
+      "type": "NAT",
+      "marks": 2,
+      "week": 2,
+      "context": "The number of products purchased by each individual customer is shown in Table 4.\n\n| Name of the customer | Number of products purchased | Relative frequency |\n|---|---|---|\n| Rohan | $b+5$ | $p$ |\n| Sneha | $b-2$ | $q$ |\n| Isha | $b+1$ | $r$ |\n| Kabir | 8 | 0.25 |\n| Nikita | $b$ | $s$ |",
+      "q": "Find the total number of products purchased by Sneha and Nikita together.",
+      "answer": 8
+    },
+    {
+      "n": 12,
+      "type": "NAT",
+      "marks": 2,
+      "week": 2,
+      "context": "The number of products purchased by each individual customer is shown in Table 4.\n\n| Name of the customer | Number of products purchased | Relative frequency |\n|---|---|---|\n| Rohan | $b+5$ | $p$ |\n| Sneha | $b-2$ | $q$ |\n| Isha | $b+1$ | $r$ |\n| Kabir | 8 | 0.25 |\n| Nikita | $b$ | $s$ |",
+      "q": "What is the value of $p$? Enter the answer correct to two decimal places.",
+      "answer": {
+        "min": 0.3,
+        "max": 0.32
+      }
+    },
+    {
+      "n": 13,
+      "type": "NAT",
+      "marks": 2,
+      "week": 2,
+      "context": "The number of products purchased by each individual customer is shown in Table 4.\n\n| Name of the customer | Number of products purchased | Relative frequency |\n|---|---|---|\n| Rohan | $b+5$ | $p$ |\n| Sneha | $b-2$ | $q$ |\n| Isha | $b+1$ | $r$ |\n| Kabir | 8 | 0.25 |\n| Nikita | $b$ | $s$ |",
+      "q": "Find the value of $q + r$. Enter the answer correct to two decimal places.",
+      "answer": {
+        "min": 0.27,
+        "max": 0.29
+      }
+    },
+    {
+      "n": 14,
+      "type": "NAT",
+      "marks": 3,
+      "week": 3,
+      "q": "A dataset contains the following 9 observations: 15, 25, 29, 23, 35, 42, 31, 54, 60. Find the Inter quartile Range (IQR) of the given dataset.",
+      "answer": 17
+    },
+    {
+      "n": 15,
+      "type": "MSQ",
+      "marks": 4,
+      "week": 4,
+      "q": "The baking time (in minutes) and the corresponding texture rating (on a scale of 1–10) for four baked items are shown in Table 5.\n\n| Baked Item | Baking Time $(X)$ | Texture Rating $(Y)$ |\n|---|---|---|\n| Scone | 12 | 6 |\n| Cookie | 15 | 7 |\n| Muffin | 20 | 9 |\n| Brownie | 25 | 10 |\n\nLet $r$ represent the correlation coefficient between baking time and texture rating. Which of the following statement(s) is/are true?",
+      "options": [
+        "The approximate value of $r$ is 0.30 and indicates a weak positive correlation.",
+        "The approximate value of $r$ is 0.99 and indicates a strong positive correlation.",
+        "The relationship between baking time and texture rating shows a negative correlation, suggesting that longer baking times result in lower texture ratings.",
+        "The positive value of $r$ indicates that as baking time increases, the texture rating tends to increase."
+      ],
+      "correct": [
+        1,
+        3
+      ]
+    },
+    {
+      "n": 16,
+      "type": "NAT",
+      "marks": 5,
+      "week": 3,
+      "q": "A factory recorded the number of products manufactured each day over a period of 10 days as follows:\n\n120, 135, 140, 150, 160, 170, 180, 190, 15, 20\n\nLater, it was discovered that:\n\n- For days 5 to 7, the recorded numbers were 15 units higher than the actual production each day.\n- On days 9 and 10, the numbers were mistakenly recorded with the last digit missing (e.g., 15 was actually 150, and 20 was actually 200).\n\nCalculate the correct average daily production after making these adjustments.",
+      "answer": 155
+    },
+    {
+      "n": 17,
+      "type": "NAT",
+      "marks": 2,
+      "week": 3,
+      "q": "Consider the following dataset: 110, 135, 140, 145, 152, 166, 170, 190, 200, 210. Find the median of the given dataset.",
+      "answer": 159
+    },
+    {
+      "n": 18,
+      "type": "MSQ",
+      "marks": 3,
+      "week": 4,
+      "q": "Suppose $X$ and $Y$ are two numerical variables measured on the same $n$ individuals. Let $\\operatorname{Cov}(X, Y)$ and $r_{XY}$ represent the sample covariance and sample correlation coefficient, respectively. Which of the following statement(s) is/are always true?",
+      "options": [
+        "If $r_{XY} > 0$, then $\\operatorname{Cov}(X, Y) > 0$.",
+        "$-2 < r_{XY} < 2$",
+        "$\\operatorname{Cov}(2X, Y) = \\operatorname{Cov}(X, Y)$",
+        "Correlation is a unitless measure of association."
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "note": "Heads-up: since $-1 \\le r_{XY} \\le 1$, option B is also always true mathematically. The key above is the one given in the source."
+    }
+  ]
+}

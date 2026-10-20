@@ -1,0 +1,113 @@
+{
+  "id": "2026-05-et",
+  "year": 2026,
+  "term": "May",
+  "exam": "End Term",
+  "source": "https://drive.google.com/file/d/1YGYS5tD9TGsjH2giFLXK4JS6TDBKVNKM/view",
+  "questions": [
+    {
+      "n": 2, "type": "MCQ", "marks": 2, "week": 1,
+      "q": "Match the following Datasets with their correct Category, as shown in Table 1:\n\n| List I (Dataset) | List II (Category) |\n|---|---|\n| (P) Degree titles such as Ph.D., Masters, Bachelors | (1) Ratio |\n| (Q) All States in India | (2) Ordinal |\n| (R) Temperature of Chennai recorded in Celsius | (3) Nominal |\n| (S) Height of students in a class | (4) Interval |",
+      "options": ["(P)-(3), (Q)-(2), (R)-(1), (S)-(4)", "(P)-(2), (Q)-(3), (R)-(4), (S)-(1)", "(P)-(2), (Q)-(3), (R)-(1), (S)-(4)", "(P)-(3), (Q)-(4), (R)-(2), (S)-(1)"],
+      "correct": [1]
+    },
+    {
+      "n": 3, "type": "NAT", "marks": 1, "week": 3,
+      "context": "The following stem-and-leaf plot shows the ages (in years) of a group of people in a survey.\n\n| Stem | Leaf |\n|---|---|\n| 1 | 8 9 |\n| 2 | 0 1 3 4 |\n| 3 | 1 2 4 5 7 |\n| 4 | 0 2 3 6 |\n| 5 | 1 4 |\n\nExample: 2|3 represents 23 years.",
+      "q": "Find the median age of the group.",
+      "answer": 34
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 2, "week": 3,
+      "context": "The following stem-and-leaf plot shows the ages (in years) of a group of people in a survey.\n\n| Stem | Leaf |\n|---|---|\n| 1 | 8 9 |\n| 2 | 0 1 3 4 |\n| 3 | 1 2 4 5 7 |\n| 4 | 0 2 3 6 |\n| 5 | 1 4 |\n\nExample: 2|3 represents 23 years.",
+      "q": "Find the Inter quartile Range (IQR) of the ages.",
+      "answer": 19
+    },
+    {
+      "n": 5, "type": "MCQ", "marks": 3, "week": 3,
+      "q": "A small manufacturing unit has 7 employees: 5 labourers earning Rs. 4000 each per month and 2 supervisors earning Rs. 18,000 each per month.\n\nDetermine the mean, median, and mode of the monthly salaries of all employees in the unit.",
+      "options": ["Mean = 8000, Median = 4000, Mode = 4000", "Mean = 8000, Median = 18,000, Mode = 4000", "Mean = 7000, Median = 4000, Mode = 18,000", "Mean = 8000, Median = 4000, Mode = 18,000"],
+      "correct": [0]
+    },
+    {
+      "n": 6, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "A group has 6 men and 3 women. A 4-member panel is chosen such that:\n\n- At least 2 women are included.\n- Two men $M_1$ and $M_2$ cannot be selected simultaneously.\n\nFind the number of ways the panel can be formed.",
+      "options": ["44", "48", "52", "56"],
+      "correct": [1]
+    },
+    {
+      "n": 7, "type": "MCQ", "marks": 3, "week": 9,
+      "q": "The cumulative distribution function of a discrete random variable $X$ is given below:\n\n$$F(x) = \\begin{cases} 0 & \\text{for } x < 0 \\\\ 0.15 & \\text{for } 0 \\le x < 1 \\\\ 0.25 & \\text{for } 1 \\le x < 2 \\\\ 0.55 & \\text{for } 2 \\le x < 3 \\\\ 0.78 & \\text{for } 3 \\le x < 4 \\\\ 1.00 & \\text{for } 4 \\le x \\end{cases}$$\n\nFind the probability mass function of $Y = X(X-1)$.",
+      "options": [
+        "$P(Y=y) = \\begin{cases} 0.15 & y = 0 \\\\ 0.10 & y = 1 \\\\ 0.30 & y = 4 \\\\ 0.23 & y = 9 \\\\ 0.22 & y = 16 \\end{cases}$",
+        "$P(Y=y) = \\begin{cases} 0 & y = 0 \\\\ 0.25 & y = 2 \\\\ 0.30 & y = 6 \\\\ 0.23 & y = 12 \\end{cases}$",
+        "$P(Y=y) = \\begin{cases} 0.15 & y = 0 \\\\ 0.25 & y = 1 \\\\ 0.55 & y = 4 \\\\ 0.78 & y = 9 \\\\ 1.00 & y = 16 \\end{cases}$",
+        "$P(Y=y) = \\begin{cases} 0.25 & y = 0 \\\\ 0.30 & y = 2 \\\\ 0.23 & y = 6 \\\\ 0.22 & y = 12 \\end{cases}$"
+      ],
+      "correct": [3]
+    },
+    {
+      "n": 8, "type": "MCQ", "marks": 3, "week": 12,
+      "q": "The lifetime of a light bulb follows an exponential distribution with an expected lifetime of 8 hours. What is the probability that the bulb lasts more than 5 hours but less than 12 hours?",
+      "options": ["$1 - e^{-5/8} + e^{-12/8}$", "$e^{-5/8} - e^{-12/8}$", "$e^{-12/8} + e^{-5/8} - 1$", "$1 - e^{-5/8} - e^{-12/8}$"],
+      "correct": [1]
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 4,
+      "q": "Suppose the following data points $(2, 14), (4, 10), (6, 6), (8, 2), (10, k)$ have perfect negative correlation. Find the value of $k$.",
+      "answer": -2
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 3, "week": 7,
+      "q": "The chance that a student will clear the quiz-1 paper is 0.38 and the chance that he will clear both quiz-1 and quiz-2 papers is 0.25. The chance that he will clear at least one quiz paper is 0.53. What is the chance that he will clear quiz-2 paper? Enter the answer correct to one decimal place.",
+      "answer": 0.4
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 8,
+      "q": "In an online degree program, 60% of the students are full-time, the rest are part-time. 50% of full-time and 20% of part-time students attend all live sessions. If a student attends all live sessions, find the probability that the student is part-time. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.18, "max": 0.24 }
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 2, "week": 9,
+      "context": "The cumulative distribution function (CDF) of the number of defective items ($X$) found in a randomly selected batch of bulbs is given in Figure 1.",
+      "figure": "2026-05-et-cdf.png",
+      "q": "Find the probability that exactly 1 defective item is found in the batch. Enter the answer correct to one decimal place.",
+      "answer": 0.3
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 9,
+      "context": "The cumulative distribution function (CDF) of the number of defective items ($X$) found in a randomly selected batch of bulbs is given in Figure 1.",
+      "figure": "2026-05-et-cdf.png",
+      "q": "Find the probability that at most 2 defective items are found in the batch. Enter the answer correct to one decimal place.",
+      "answer": 0.8
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 2, "week": 11,
+      "context": "A bowler takes wickets following a binomial distribution. The expected number of wickets is 1.8 and variance is 1.26.",
+      "q": "Find the number of balls bowled.",
+      "answer": 6
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 11,
+      "context": "A bowler takes wickets following a binomial distribution. The expected number of wickets is 1.8 and variance is 1.26.",
+      "q": "Find the probability that he takes at least one wicket. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.87, "max": 0.89 }
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 4, "week": 10,
+      "q": "A box contains 9 white and 6 black balls. 2 balls are drawn at random without replacement. Find the expected value of the number of white balls drawn. Enter the answer correct to two decimal places.",
+      "answer": { "min": 1.17, "max": 1.23 }
+    },
+    {
+      "n": 17, "type": "MSQ", "marks": 2, "week": 10,
+      "q": "Which of the following statements is/are correct?",
+      "options": [
+        "If $X$ is a random variable with mean $\\mu$ and standard deviation $\\sigma$, then $E(X^2) = \\sigma - \\mu^2$.",
+        "Standard deviation of a random variable has the same units as the units of a random variable.",
+        "Standard deviation of a random variable cannot have the same units as the expectation of a random variable.",
+        "If $X_1, X_2, \\dots, X_n$ are independent random variables, then $\\operatorname{Var}(X_1 + X_2 + \\cdots + X_n) = \\operatorname{Var}(X_1) + \\operatorname{Var}(X_2) + \\cdots + \\operatorname{Var}(X_n)$."
+      ],
+      "correct": [1, 3]
+    }
+  ]
+}

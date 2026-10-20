@@ -1,0 +1,104 @@
+{
+  "id": "2026-01-et",
+  "year": 2026,
+  "term": "Jan",
+  "exam": "End Term",
+  "source": "https://drive.google.com/file/d/1BLlEAx1UhqE1-MS5XLV3N6KVRatwj19U/view",
+  "questions": [
+    {
+      "n": 2, "type": "MCQ", "marks": 2, "week": 1,
+      "q": "Match the data types listed in Column A with the corresponding category in Column B, as shown in Table 1.\n\n| Column A (Dataset) | Column B (Category) |\n|---|---|\n| (P) Hourly temperature readings in a city | (1) Unstructured Data |\n| (Q) Income of different households in a city in 2025 | (2) Nominal Data |\n| (R) Student ID numbers | (3) Time Series Data |\n| (S) Lyrics of a Song | (4) Cross-Sectional Data |",
+      "options": ["(P)-(3), (Q)-(4), (R)-(2), (S)-(1)", "(P)-(4), (Q)-(3), (R)-(2), (S)-(1)", "(P)-(3), (Q)-(4), (R)-(1), (S)-(2)", "(P)-(1), (Q)-(2), (R)-(3), (S)-(4)"],
+      "correct": [0]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 3, "week": 11,
+      "q": "At a school function, it is noticed that 9% of the students are not wearing polished shoes and 14% are not wearing school ties. These two violations are independent. If a teacher selects 5 students at random, what is the probability that exactly three of them will be punished for at least one violation?",
+      "options": [
+        "$\\binom{5}{3}(0.23)^3(0.77)^2$",
+        "$\\binom{5}{3}(0.2174)^3(0.7826)^2$",
+        "$\\binom{5}{3}(0.09)^3(0.91)^2 + \\binom{5}{3}(0.14)^3(0.86)^2$",
+        "$\\binom{5}{3}(0.0126)^3(0.9874)^2$"
+      ],
+      "correct": [1]
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 3, "week": 12,
+      "q": "The waiting time for a bus at a certain stop is exponentially distributed with a mean waiting time of 12 minutes. If there is a 75% chance that a passenger will wait at most $t$ minutes, then what is the value of $t$?",
+      "options": ["$12 \\times \\ln(0.25)$", "$\\frac{1}{12}\\ln(0.25)$", "$\\frac{1}{12}\\ln(4)$", "$12 \\times \\ln(4)$"],
+      "correct": [3]
+    },
+    {
+      "n": 5, "type": "MCQ", "marks": 3, "week": 12,
+      "context": "**Useful data:** Let $Z$ represent the standard normal variable. $P(Z < 1.645) = 0.95$, $P(Z < 1.96) = 0.975$, $P(Z < -1.645) = 0.05$.",
+      "q": "Let $X \\sim \\text{Normal}(\\mu, \\sigma^2)$, find the value of $c$ in terms of $\\sigma$ such that $P(X < \\mu + c) = 0.95$.",
+      "options": ["$c = 0.95\\sigma$", "$c = 1.645\\sigma$", "$c = 1.96\\sigma$", "$c = 1.96\\sigma^2$"],
+      "correct": [1]
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 4, "week": 10,
+      "q": "Rohit wants to open his door with 5 keys (out of which 1 will open the door) and tries the keys independently and at random. If unsuccessful keys are eliminated from further selection, then find the expected number of trials required to open the door.",
+      "answer": 3
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 4, "week": 11,
+      "q": "The number of system failures in a data center follows a Poisson distribution with an average rate of 1.2 failures per day. What is the probability that there will be no system failures during a specific 12-hour shift? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.52, "max": 0.58 }
+    },
+    {
+      "n": 8, "type": "MSQ", "marks": 4, "week": 4,
+      "q": "The time students spend studying and their scores on an exam are shown in Table 2.\n\n| Name | Study Hours | Exam Score |\n|---|---|---|\n| Ravi | 3 | 46 |\n| Priya | 7 | 55 |\n| Raju | 6 | 53 |\n| Nina | 4 | 50 |\n\nWhich of the following option(s) is/are correct?",
+      "options": [
+        "There is a strong positive correlation between Study Hours and Exam Score.",
+        "Study hours and Exam Score have a weak correlation.",
+        "The data show that students who study less tend to score higher on the exam.",
+        "The Pearson correlation coefficient ($r$) for this data set is $0.98$."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 9, "type": "MSQ", "marks": 2, "week": 10,
+      "q": "Let $X$ and $Y$ be two random variables. Choose all the correct statements from the following:",
+      "options": [
+        "$\\operatorname{Var}(X) = E(X^2) + (E(X))^2$",
+        "$\\operatorname{Var}(100X + 36) = 10000\\operatorname{Var}(X)$",
+        "The variance of a Bernoulli random variable is maximum when $p = 0.5$, where $p$ is the probability of success.",
+        "$\\operatorname{Var}(X+Y) = \\operatorname{Var}(X) + \\operatorname{Var}(Y)$ for any two random variables $X$ and $Y$."
+      ],
+      "correct": [1, 2]
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 2,
+      "q": "The number of students who use different modes of transport to get to school is shown in Figure 1.\n\nFind the relative frequency of students going on a cycle. Enter the answer correct to one decimal place.",
+      "figure": "2026-01-et-transport.png",
+      "answer": 0.2
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 3,
+      "q": "A company has two departments. The Sales department has 30 employees with an average monthly salary of Rs. 50,000, while the Marketing department has 20 employees with an average monthly salary of Rs. 60,000. If the company considers both departments together, what is the overall average monthly salary of all employees?",
+      "answer": 54000
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 3, "week": 5,
+      "q": "How many three digit numbers are there that do not contain $4$?",
+      "answer": 648
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 3, "week": 7,
+      "q": "In a program, every student belongs to exactly one of three levels: Foundation, Diploma, or Degree. A student is chosen at random from the program.\n\n- The probability that the chosen student is at the Foundation or Diploma level is 0.8.\n- The probability that the chosen student is at the Diploma or Degree level is 0.6.\n\nFind the probability that the chosen student is at the Diploma level. Enter the answer correct to one decimal place.",
+      "answer": 0.4
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 9,
+      "context": "The cumulative distribution function (CDF) of the number of customers ($X$) waiting in a queue at a specific time is given as follows:\n\n$$F(x) = \\begin{cases} 0 & x < 0 \\\\ 0.25 & 0 \\le x < 1 \\\\ 0.60 & 1 \\le x < 2 \\\\ 0.85 & 2 \\le x < 3 \\\\ 1 & x \\ge 3 \\end{cases}$$",
+      "q": "Find the probability that there are exactly 2 customers in the queue. Enter the answer correct to two decimal places.",
+      "answer": 0.25
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 2, "week": 9,
+      "context": "The cumulative distribution function (CDF) of the number of customers ($X$) waiting in a queue at a specific time is given as follows:\n\n$$F(x) = \\begin{cases} 0 & x < 0 \\\\ 0.25 & 0 \\le x < 1 \\\\ 0.60 & 1 \\le x < 2 \\\\ 0.85 & 2 \\le x < 3 \\\\ 1 & x \\ge 3 \\end{cases}$$",
+      "q": "Find the probability that there are at least 1 customer in the queue. Enter the answer correct to two decimal places.",
+      "answer": 0.75
+    }
+  ]
+}

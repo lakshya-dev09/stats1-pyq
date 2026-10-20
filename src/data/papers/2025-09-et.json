@@ -1,0 +1,103 @@
+{
+  "id": "2025-09-et",
+  "year": 2025,
+  "term": "Sep",
+  "exam": "End Term",
+  "source": "https://drive.google.com/file/d/16zCfFUT-T-JIUaz16Mec4AyEmT5fp96a/view",
+  "questions": [
+    {
+      "n": 2, "type": "NAT", "marks": 3, "week": 12,
+      "context": "Suppose that a continuous random variable $X$ is uniformly distributed between $a$ and $b$. The value of mean and variance of $X$ are 9 and 3 respectively.",
+      "q": "Find the value of $a + 2b$.",
+      "answer": 30
+    },
+    {
+      "n": 3, "type": "NAT", "marks": 2, "week": 12,
+      "context": "Suppose that a continuous random variable $X$ is uniformly distributed between $a$ and $b$. The value of mean and variance of $X$ are 9 and 3 respectively.",
+      "q": "Find the value of $P(5 < X < 7)$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.15, "max": 0.19 }
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 3, "week": 11,
+      "q": "The number of customers arriving at a bank counter follows a Poisson distribution with an average of 4 arrivals per hour. What is the probability that at least 2 customers arrive in 30 minutes? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.56, "max": 0.62 }
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 4, "week": 10,
+      "q": "The probability mass function of a discrete random variable $X$ is given by\n\n| $X$ | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $P(X = x)$ | 0.2 | $a$ | 0.3 | $b$ |\n\nFind the value of $b$ such that $E(X) = 2.7$. Enter the answer correct to one decimal place.",
+      "answer": 0.3
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 9,
+      "q": "A random variable $X$ represents the number of packages delivered by a courier company in a day. The cumulative distribution function (CDF) of $X$ is given below:\n\n$$F(x) = \\begin{cases} 0 & x < 0 \\\\ 0.10 & 0 \\le x < 1 \\\\ 0.45 & 1 \\le x < 2 \\\\ 0.70 & 2 \\le x < 3 \\\\ 1 & x \\ge 3 \\end{cases}$$\n\nFind the value of $P(X > 1 \\mid X < 3)$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.33, "max": 0.39 }
+    },
+    {
+      "n": 8, "type": "MCQ", "marks": 3, "week": 11,
+      "context": "Suppose $X$ is a binomial random variable with parameters $n = 10$ and $p = \\frac{1}{4}$. Define a new random variable $Y = X + 10$.",
+      "q": "Find the PMF of $Y$.",
+      "options": [
+        "$P(Y=k) = {^{10}C_{k-10}} \\left(\\frac{1}{4}\\right)^{k-10} \\left(\\frac{3}{4}\\right)^{20-k}$, for $k = 10, 11, 12, \\dots, 20$.",
+        "$P(Y=k) = {^{10}C_{k-10}} \\left(\\frac{1}{4}\\right)^{k} \\left(\\frac{3}{4}\\right)^{20-k}$, for $k = 10, 11, 12, \\dots, 20$.",
+        "$P(Y=k) = {^{10}C_{k}} \\left(\\frac{1}{4}\\right)^{k} \\left(\\frac{3}{4}\\right)^{10-k}$, for $k = 0, 1, 2, \\dots, 10$.",
+        "$P(Y=k) = {^{20}C_{k-10}} \\left(\\frac{1}{4}\\right)^{k-10} \\left(\\frac{3}{4}\\right)^{20-k}$, for $k = 10, 11, 12, \\dots, 20$."
+      ],
+      "correct": [0]
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 10,
+      "context": "Suppose $X$ is a binomial random variable with parameters $n = 10$ and $p = \\frac{1}{4}$. Define a new random variable $Y = X + 10$.",
+      "q": "Find the expected value of $Y$.",
+      "answer": { "min": 12.4, "max": 12.6 }
+    },
+    {
+      "n": 10, "type": "MCQ", "marks": 3, "week": 9,
+      "q": "A box contains 3 red balls and 3 blue balls. A student randomly picks 3 balls without replacement. Let $X$ be the random variable representing the number of red balls selected. Which of the following option is correct?",
+      "options": ["$P(X=0) = P(X=1)$", "$P(X=0) > P(X=3)$", "$P(X=0) < P(X=3)$", "$P(X=0) = P(X=3)$"],
+      "correct": [3]
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 2, "week": 3,
+      "q": "Consider the dataset 4, 7, 5, 3, 9. If 3 is added to all observations, what is the $75^{\\text{th}}$ percentile of the new dataset?",
+      "answer": 10
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 4, "week": 4,
+      "q": "Based on the information given in Table 3, choose the correct option regarding the correlation coefficient $(r)$ between hours studied and test scores of five students.\n\n| Student | Hours Studied | Test Score |\n|---|---|---|\n| A | 1 | 55 |\n| B | 2 | 50 |\n| C | 3 | 65 |\n| D | 4 | 80 |\n| E | 5 | 75 |",
+      "options": [
+        "The value of $r$ is 0.65 and shows a moderate positive correlation.",
+        "The value of $r$ is 0.87 and shows a strong positive correlation.",
+        "The value of $r$ is 0.92 and shows a very strong positive correlation.",
+        "The value of $r$ is $-0.80$ and shows a very strong negative correlation."
+      ],
+      "correct": [1]
+    },
+    {
+      "n": 13, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following options is(are) correct?",
+      "options": [
+        "The variable height of students is measured on an interval scale.",
+        "The average temperature recorded each day for one week is time-series data.",
+        "Cross-sectional data are collected at a single point in time across several individuals, firms, or regions etc.",
+        "The brand of smartphone a person uses is a qualitative variable."
+      ],
+      "correct": [1, 2, 3]
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 6,
+      "q": "At a seminar, there are 30 participants, consisting of 20 men and 10 women.\n\n- Each man shakes hands only with other men.\n- Each woman shakes hands only with other women.\n\nIf every allowed pair of people has exactly one handshake, find the total number of handshakes that occur at the seminar.",
+      "answer": 235
+    },
+    {
+      "n": 15, "type": "MCQ", "marks": 3, "week": 8,
+      "q": "There are two bags, Bag A and Bag B. Bag A contains 2 red balls and 1 blue ball, while Bag B contains 1 red ball and 2 blue balls. The probability of choosing Bag A is $1/3$, and the probability of choosing Bag B is $2/3$. After selecting a bag, one ball is drawn from it. What is the probability that the ball drawn is red?",
+      "options": ["$1/3$", "$4/9$", "$5/9$", "$2/3$"],
+      "correct": [1]
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 2, "week": 3,
+      "q": "The median of the data set $y_1, y_2, y_3, \\dots, y_n$ is $20$. What is the median of the transformed dataset $5y_1 - 3, 5y_2 - 3, 5y_3 - 3, \\dots, 5y_n - 3$?",
+      "answer": 97
+    }
+  ]
+}

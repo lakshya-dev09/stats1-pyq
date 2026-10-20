@@ -1,0 +1,100 @@
+{
+  "id": "2026-01-q2",
+  "year": 2026,
+  "term": "Jan",
+  "exam": "Quiz 2",
+  "source": "https://drive.google.com/file/d/1d0kFJedSDh2HvVqqQDNBhVa52LZNYdoD/view",
+  "questions": [
+    {
+      "n": 1, "type": "NAT", "marks": 5, "week": 8,
+      "q": "There are two stores, $A$ and $B$, which sell t-shirts on the market. The store $A$ has stock of $n$ red and 2 black t-shirts and the store $B$ has a stock of 2 red and $n$ black t-shirts. One of the stores is selected at random and two t-shirts are purchased without replacement from that store. Given that both the t-shirts purchased are red, the probability that they were purchased from store $A$ is $\\frac{6}{7}$, find the value of $n$.",
+      "answer": 4
+    },
+    {
+      "n": 2, "type": "MSQ", "marks": 3, "week": 8,
+      "q": "Three independent draws are made from a standard deck of 52 playing cards, with replacement and reshuffling between each draw. Which of the following statements is/are correct?",
+      "options": [
+        "The probability that the first card drawn is the King of Hearts is $\\frac{1}{52}$.",
+        "The probability that both the first and second cards drawn are red is $\\frac{1}{2}$.",
+        "The probability that the third card drawn is the Ace of Spades is $\\frac{1}{50}$.",
+        "The events \"the first card drawn is a Queen\" and \"the second card drawn is a Queen\" are independent events."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 3, "week": 7,
+      "q": "Which of the following statements is(are) true?",
+      "options": [
+        "$P((A \\cup B)^c) = P(A^c \\cap B^c)$",
+        "$P(A \\cup \\phi) = P(A^c)$",
+        "$P(A^c \\cup B) = 1 - P(A) + P(A \\cap B)$",
+        "$P(A \\cap \\phi) = 0$"
+      ],
+      "correct": [0, 2, 3]
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 3, "week": 6,
+      "q": "A person won a special pass to an amusement park that allows him to bring 4 friends with him for free. He has 8 friends, but two of them are twins who will only attend if both are included. How many different groups of 4 friends can the person choose to take along?",
+      "answer": 30
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 3, "week": 6,
+      "q": "Nine friends are to be seated around a round table. Among them, Amit and Rohit insist on sitting next to each other. In how many ways can the friends be seated around a circular table?",
+      "answer": 10080
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 6,
+      "q": "If $^{n}C_2 + 2\\,{^{n}C_1} = 35$, find the value of $n$.",
+      "answer": 7
+    },
+    {
+      "n": 7, "type": "MSQ", "marks": 4, "week": 8,
+      "q": "A bakery sells bread, cake, and pastry each day. Of the total items sold, 40% are bread, 35% are cake, and 25% are pastry. Each individual item has a 6% probability of being defective (either stale or burnt) independent of its type. One item is selected at random from the total items sold that day. Define the events:\n\n- $S$: the selected item is stale or burnt.\n- $C$: the selected item is a cake.\n\nWhich of the following options is/are correct?",
+      "options": ["$P(C \\cap S) = 0.021$", "$P(S \\mid C) = 0.10$", "$P(C \\mid S) = 0.06$", "$P(B \\mid S) > P(C \\mid S)$"],
+      "correct": [0, 3]
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 2, "week": 5,
+      "q": "Amit wants to create a 4-digit numerical PIN for his ATM card. In how many ways can he create a 4-digit number between 5000 and 9000 using the digits 1, 3, 5, 6, 8, 9, if repetition of digits is allowed?",
+      "answer": 648
+    },
+    {
+      "n": 9, "type": "MCQ", "marks": 4, "week": 5,
+      "q": "How many 5's are there between 1 and 1000?",
+      "options": ["271", "300", "299", "301"],
+      "correct": [1]
+    },
+    {
+      "n": 10, "type": "MCQ", "marks": 2, "week": 6,
+      "q": "From a group of 5 students, a team of 3 students is to be selected. From this selected team, one student is chosen as the leader. In how many different ways can this be done?",
+      "options": ["15", "20", "30", "60"],
+      "correct": [2]
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 2, "week": 6,
+      "context": "A committee of 3 students is to be formed from a class of 7 boys and 5 girls.",
+      "q": "In how many ways can a committee be formed if at least one girl must be included?",
+      "options": ["140", "165", "185", "220"],
+      "correct": [2]
+    },
+    {
+      "n": 13, "type": "MCQ", "marks": 2, "week": 8,
+      "context": "A committee of 3 students is to be formed from a class of 7 boys and 5 girls.",
+      "q": "Find the probability that it contains exactly one girl, given that it contains at least one boy.",
+      "options": ["$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{5}{12}$", "$\\frac{7}{10}$"],
+      "correct": [1]
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 7,
+      "context": "Let $A$, $B$ and $C$ be three events of a random experiment such that $P(A) = 0.6$, $P(B) = 0.5$, $P(C) = 0.4$, $P(A \\cap B) = 0.3$, $P(B \\cap C) = 0.2$, and $P(A \\cap C) = 0.25$.",
+      "q": "Assuming $P(A \\cap B \\cap C) = 0$, find the value of $P(A \\cup B \\cup C)$. Enter the answer correct to two decimal places.",
+      "answer": 0.75
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 2, "week": 8,
+      "context": "Let $A$, $B$ and $C$ be three events of a random experiment such that $P(A) = 0.6$, $P(B) = 0.5$, $P(C) = 0.4$, $P(A \\cap B) = 0.3$, $P(B \\cap C) = 0.2$, and $P(A \\cap C) = 0.25$.",
+      "q": "Find the value of $P(B \\mid (A \\cup C))$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.64, "max": 0.7 }
+    }
+  ]
+}

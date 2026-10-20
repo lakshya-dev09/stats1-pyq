@@ -1,0 +1,74 @@
+{
+  "id": "2026-05-q2",
+  "year": 2026,
+  "term": "May",
+  "exam": "Quiz 2",
+  "source": "https://drive.google.com/file/d/1O8QLBiJPnBpZg2yonOS4pAHVuvsa1tCE/view",
+  "questions": [
+    {
+      "n": 2, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "In how many ways can the letters of the word \"MATHEMATICS\" be arranged such that all the vowels appear together?",
+      "options": ["60480", "30240", "241920", "120960"], "correct": [3]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 4, "week": 6,
+      "q": "Eight people, among whom are three friends $A, B$, and $C$, are to be arranged around a circular table. Find the number of distinct seating arrangements if $A$ and $B$ sit together, but $C$ does not sit next to either $A$ or $B$.",
+      "options": ["720", "1440", "480", "960"], "correct": [3]
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 4, "week": 8,
+      "q": "A committee of 3 members is selected at random from 5 men and 4 women. Given that at least one woman is selected, what is the probability that exactly one woman is selected?",
+      "options": ["$\\frac{40}{84}$", "$\\frac{4}{9}$", "$\\frac{20}{37}$", "$\\frac{10}{21}$"], "correct": [2]
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 2, "week": 5,
+      "q": "A mobile phone lock uses a 4-character code. The first two characters are letters selected from $A, B, C$, and $D$, where repetition of letters is allowed. The last two characters are digits selected from 1, 2, 3, 4, and 5, where repetition of digits is not allowed. How many different lock codes can be formed?",
+      "answer": 320
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 2, "week": 7,
+      "q": "Ten friends are seated randomly around a circular table. Two particular friends, Rahul and Priya, wish to sit next to each other. Find the probability that Rahul and Priya are seated adjacent to each other. Enter your answer correct to two decimal places.",
+      "answer": { "min": 0.2, "max": 0.24 }
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 2, "week": 8,
+      "q": "A bag contains 5 red balls and 7 blue balls. Two balls are drawn one after the other without replacement. Find the probability that both balls drawn are red. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.13, "max": 0.17 }
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 2, "week": 6,
+      "q": "An escape room contains 7 unique keys. How many different 4-key sequences can be formed using these keys without repetition?",
+      "answer": 840
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 4, "week": 6,
+      "q": "A library contains 7 different Mathematics books and 6 different Statistics books. A student selects 3 Mathematics books and 2 Statistics books. The selected books are then arranged on a shelf such that no two Statistics books are placed next to each other. Find the number of ways in which the selected books can be arranged under the given condition.",
+      "answer": 37800
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 4, "week": 6,
+      "q": "A 6-digit security code is formed using digits from the set $\\{0, 1, 2, 3, 4, 5, 6, 7, 8\\}$, without repetition. Determine the number of valid security codes in which:\n- the first digit is not zero,\n- the digits are either in strictly increasing order or strictly decreasing order, and\n- the digit 8 is included in the code.",
+      "answer": 77
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 5, "week": 8,
+      "q": "At a school, two teachers share the responsibility of creating quiz papers for students. Mr. Chandra creates 35% of all quiz papers, while Ms. Sharma creates the remaining 65% of all quiz papers. The passing rates differ between the two teachers, with only 20% of students passing quizzes created by Mr. Chandra, whereas 80% of students pass quizzes created by Ms. Sharma. Given that the student passed the quiz, what is the probability that the quiz was prepared by Mr. Chandra? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.09, "max": 0.15 }
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 2, "week": 7,
+      "q": "A card is drawn at random from a standard deck of 52 playing cards. Find the probability that the card drawn is a King or a Heart.",
+      "options": ["$\\frac{17}{52}$", "$\\frac{16}{52}$", "$\\frac{1}{52}$", "$\\frac{12}{52}$"], "correct": [1]
+    },
+    {
+      "n": 13, "type": "MSQ", "marks": 3, "week": 7,
+      "q": "A fair six-sided die is rolled once. Let $A$ be the event that the outcome is even, and $B$ be the event that the outcome is strictly greater than 3. Which of the following statements are correct?",
+      "options": ["$P(A) = \\frac{1}{2}$", "$P(A \\cup B) = \\frac{5}{6}$", "$P(A \\cap B) = \\frac{1}{3}$", "$P(A) + P(B) = 1$"], "correct": [0, 2, 3]
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 7,
+      "q": "A movie streaming platform records that the probability a user watches a comedy movie is 0.45, the probability the user watches an action movie is 0.50, and the probability that the user watches neither a comedy movie nor an action movie is 0.18. Find the probability that the user watches both a comedy movie and an action movie. Enter the answer correct to two decimal places.",
+      "answer": 0.13
+    }
+  ]
+}

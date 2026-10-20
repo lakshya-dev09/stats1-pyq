@@ -1,0 +1,127 @@
+{
+  "id": "2026-05-q1",
+  "year": 2026,
+  "term": "May",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/1k_eFYNRgneNp2CIJV_xNrzq9p3SnT6xZ/view",
+  "questions": [
+    {
+      "n": 2, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "A researcher selects 200 scholars from a research institute and records their registration numbers, the time spent on their research projects per week (in hours), their monthly stipend (in Rs.), alongside their preferred mode of conducting research (Laboratory-based, Computer-based, or Hybrid).\n\nBased on this study, choose all the correct statements from the following:",
+      "options": [
+        "\"All scholars in the institute\" represents the population, while \"the 200 selected scholars\" represents the sample.",
+        "The \"preferred mode of research\" is a qualitative variable, whereas the \"time spent on research per week\" is a quantitative variable.",
+        "The time spent on research per week is a categorical variable.",
+        "The Registration numbers are numerical variables.",
+        "Monthly stipend measured in rupees is a numerical variable."
+      ],
+      "correct": [0, 1, 4]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following statements is/are meaningful?",
+      "options": [
+        "A person ranked 2nd performed twice as well as a person ranked 4th.",
+        "A temperature of $20^\\circ\\mathrm{C}$ is twice as hot as a temperature of $10^\\circ\\mathrm{C}$.",
+        "A package weighing $10$ kg is twice as heavy as a package weighing $5$ kg.",
+        "Blood groups do not have a natural ordering."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Choose all the correct statements from the following:",
+      "options": [
+        "Monthly electricity consumption of a household from January 2025 to December 2025 is a Time-series data.",
+        "Marks obtained by all students in a Statistics exam in Quiz 1 is a Time-series data.",
+        "Monthly salaries of 500 employees in a company recorded in June 2026 is a cross-sectional data.",
+        "Marks obtained by a particular student in Statistics tests conducted every month during the year is cross sectional data."
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 2, "week": 2,
+      "context": "$a, b, c$, and $d$ are observations, and the sum of their frequencies is 200. The relative frequencies corresponding to $a, b$, and $c$ are 20%, 25%, and 30%, respectively.",
+      "q": "What is the frequency corresponding to $d$?",
+      "answer": 50
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 2,
+      "context": "$a, b, c$, and $d$ are observations, and the sum of their frequencies is 200. The relative frequencies corresponding to $a, b$, and $c$ are 20%, 25%, and 30%, respectively.",
+      "q": "What will be the cumulative frequency of $a, b$, and $d$?",
+      "answer": 140
+    },
+    {
+      "n": 7, "type": "MCQ", "marks": 1, "week": 2,
+      "context": "Figure 1 represents the placement percentage of students in different sectors from an engineering college.",
+      "figure": "2026-05-q1-pie.png",
+      "q": "What is the mode of the placement sectors?",
+      "options": ["Analytics", "Software", "Consultancy", "Core"], "correct": [1]
+    },
+    {
+      "n": 8, "type": "MCQ", "marks": 3, "week": 2,
+      "context": "Figure 1 represents the placement percentage of students in different sectors from an engineering college.",
+      "figure": "2026-05-q1-pie.png",
+      "q": "If 1000 students were placed according to the percentages shown in the pie chart, which of the following statements is true?",
+      "options": [
+        "The difference between the number of students placed in Core and the sum of those in Consultancy and Analytics is 100.",
+        "The mode of the placement sectors is shared by Analytics and Software.",
+        "The sector with the second-highest placement has 50 more students placed than the lowest sector.",
+        "The sector with the least placement has half as many students as the highest placed sector."
+      ],
+      "correct": [2]
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 2, "week": 4,
+      "context": "600 students are classified according to their level of attendance and academic performance. The results are given in Table 1.\n\n| Attendance Level | High | Medium | Low |\n|---|---|---|---|\n| Regular | 180 | 120 | 60 |\n| Irregular | 50 | 90 | 100 |",
+      "q": "What proportion of total students are irregular? (Enter the answer correct to 1 decimal place)",
+      "answer": 0.4
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 4,
+      "context": "600 students are classified according to their level of attendance and academic performance. The results are given in Table 1.\n\n| Attendance Level | High | Medium | Low |\n|---|---|---|---|\n| Regular | 180 | 120 | 60 |\n| Irregular | 50 | 90 | 100 |",
+      "q": "What proportion of irregular students are having low academic performance? (Enter the answer correct to 2 decimal places)",
+      "answer": { "min": 0.39, "max": 0.45 }
+    },
+    {
+      "n": 11, "type": "MSQ", "marks": 4, "week": 3,
+      "q": "In a deck, there are cards numbered $1$ to $44$ such that the number of cards of a particular number in the deck is same as the number on the card. Which of the following statement(s) is/are true about the mean and mode of the numbers on this deck of card?\n\n*Hint:* $\\displaystyle\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$ and $\\displaystyle\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$.",
+      "options": ["Mode is not defined for this data.", "Mean is $22.5$.", "Mode is $44$.", "Mode is $43$.", "Mean is $44$.", "Mean is $29.67$."],
+      "correct": [2, 5]
+    },
+    {
+      "n": 12, "type": "MSQ", "marks": 4, "week": 3,
+      "q": "A total of $600$ students wrote a competitive exam. Rahul's score is denoted by $x$, which happens to be exactly at the $70^{\\text{th}}$ percentile. Suppose the examiner realizes that there was a grading error on Rahul's paper, and his score $x$ needs to increase slightly but remains below $71^{\\text{st}}$ percentile values; Choose all the correct statements from the following:",
+      "options": [
+        "In the original results, approximately $420$ students scored less than or equal to $x$.",
+        "Changing the value of $x$ will definitely alter the mean score of the $600$ students.",
+        "Changing the value of $x$ will not alter the median score of the $600$ students.",
+        "Changing the value of $x$ will definitely change the total range of scores.",
+        "Changing the value of $x$ will definitely change the Inter quartile Range (IQR) of the data set."
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 4, "week": 3,
+      "q": "The mean of the $30$ values in a given dataset is $100$. When these values are rearranged in a certain order, the mean of the first $10$ values and the last $21$ values are $60$ and $120$ respectively. Find the tenth value after the rearrangement.",
+      "answer": 120
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 2, "week": 4,
+      "q": "Figure 2 shows a scatter plot of calorie intake ($x$) and weight gain in a week ($y$) for a person.\n\nBased on the relationship shown in Figure 2, what is the value of $y$ when $x = 100$?",
+      "figure": "2026-05-q1-scatter.png",
+      "answer": 21
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 2,
+      "q": "A survey was conducted among a group of students to determine their preferred subjects. The raw frequencies of their responses are displayed in the bar chart in Figure 3.\n\nBased on the bar chart, what is the **relative frequency** of students who prefer Subject B? Enter the answer correct to 2 decimal places.",
+      "figure": "2026-05-q1-bar.png",
+      "answer": { "min": 0.35, "max": 0.41 }
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 5, "week": 4,
+      "q": "Table 2 shows the number of hours spent studying ($X$) and the corresponding test scores ($Y$) for 5 students.\n\n| Study Hours $(X)$ | Test Score $(Y)$ |\n|---|---|\n| 1 | 3 |\n| 2 | 4 |\n| 3 | 6 |\n| 4 | 5 |\n| 5 | 7 |\n\nCalculate the Pearson correlation coefficient between $X$ and $Y$. Enter the answer correct to 2 decimal places.",
+      "answer": { "min": 0.87, "max": 0.93 }
+    }
+  ]
+}
