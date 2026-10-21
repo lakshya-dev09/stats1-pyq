@@ -57,6 +57,16 @@ export default function Home() {
           <p>Attempt a full Quiz 1, Quiz 2 or End Term paper from a specific term, exactly as it was set.</p>
           <span className="mode-cta">Browse papers →</span>
         </Link>
+        <Link to="/upload" className="mode-card">
+          <span className="mode-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22">
+              <path d="M12 16V4M7 9l5-5 5 5M5 20h14" />
+            </svg>
+          </span>
+          <h2>Upload a PDF</h2>
+          <p>Have a combined IITM paper? Drop it in to split it by subject and practise its questions one by one.</p>
+          <span className="mode-cta">Upload a paper →</span>
+        </Link>
       </section>
 
       {latest && (

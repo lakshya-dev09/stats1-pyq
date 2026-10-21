@@ -4,9 +4,10 @@ Practice IIT Madras BS **Statistics for Data Science I (BSMA1002)** previous-yea
 
 - **By week:** each of the 12 weeks opens with a short intro, key ideas, a formula sheet and exam tips, then lists every PYQ on that topic, newest term first (Sep → May → Jan, by year).
 - **By paper:** attempt a full Quiz 1, Quiz 2 or End Term paper from a specific term.
+- **Upload a PDF:** drop in an official IITM question-paper PDF (the combined all-subject ones work too). The site lists the subjects inside, splits the one you pick into separate questions and reads the answer key from the PDF's green/red colouring, so you can practise it with instant checking. It all runs in the browser with pdf.js; the file is never sent anywhere, and split papers are kept in IndexedDB.
 - Instant checking for MCQ, MSQ and numerical answers (ranges supported), bookmarks, a "got wrong" list, per-week progress, and light/dark themes. Progress is stored in the browser only.
 
-Built with Vite, React, TypeScript and KaTeX. It's a static site, so it deploys anywhere.
+Built with Vite, React, TypeScript, KaTeX and pdf.js. It's a static site, so it deploys anywhere.
 
 ## Run locally
 

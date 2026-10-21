@@ -1223,3 +1223,174 @@ a.tag:hover {
   border-radius: 8px;
   padding: 8px 12px;
 }
+
+/* ---------- Upload ---------- */
+
+.dropzone {
+  margin-top: 28px;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.dropzone.over {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.dropzone.busy {
+  border-style: solid;
+}
+
+.drop-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+}
+
+.drop-icon svg {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.drop-progress {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notice {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 0.92rem;
+}
+
+.notice.bad {
+  background: var(--bad-soft);
+  color: var(--bad);
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.subject-card {
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: border-color 0.12s ease, transform 0.12s ease;
+}
+
+.subject-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.subject-card.featured {
+  border-color: var(--accent);
+}
+
+.subject-card .muted {
+  font-size: 0.82rem;
+}
+
+.upload-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upload-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+}
+
+.upload-main,
+.upload-main:hover {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.upload-main:hover strong {
+  color: var(--accent);
+}
+
+.upload-main .muted {
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
+/* Cropped question images keep a paper-white background in both themes. */
+.crop-box {
+  width: fit-content;
+  max-width: 100%;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.crop {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.qcontext.crop-box {
+  border-left: 3px solid var(--accent);
+  padding: 10px;
+}
+
+.opt-crop {
+  min-width: 0;
+  flex: 1;
+}
+
+.opt-crop .crop {
+  background: #fff;
+  border-radius: 6px;
+  padding: 2px 4px;
+  box-sizing: border-box;
+}

@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { HashRouter, NavLink, Link, Route, Routes, useLocation } from 'react-router-dom';
 import { useTheme } from './lib/progress';
 import Home from './pages/Home';
@@ -8,9 +8,16 @@ import Weeks from './pages/Weeks';
 import WeekPage from './pages/WeekPage';
 import Saved from './pages/Saved';
 
+// The upload pages pull in pdf.js, so they load only when visited.
+const Upload = lazy(() => import('./pages/Upload'));
+const UploadPaperPage = lazy(() => import('./pages/UploadPaperPage'));
+
 function ScrollToTop() {
   const { pathname } = useLocation();
-  useEffect(() => window.scrollTo(0, 0), [pathname]);
+  useEffect(() => {
+    // Braces matter: newer browsers return a Promise from scrollTo, which React would treat as a cleanup.
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return null;
 }
 
@@ -30,6 +37,7 @@ function Shell() {
             <NavLink to="/weeks">Weeks</NavLink>
             <NavLink to="/papers">Papers</NavLink>
             <NavLink to="/saved">Saved</NavLink>
+            <NavLink to="/upload">Upload</NavLink>
           </nav>
           <button
             className="icon-btn"
@@ -51,15 +59,19 @@ function Shell() {
         </div>
       </header>
       <main className="main">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/weeks" element={<Weeks />} />
-          <Route path="/week/:n" element={<WeekPage />} />
-          <Route path="/papers" element={<Papers />} />
-          <Route path="/paper/:id" element={<PaperPage />} />
-          <Route path="/saved" element={<Saved />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <Suspense fallback={<div className="page" />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/weeks" element={<Weeks />} />
+            <Route path="/week/:n" element={<WeekPage />} />
+            <Route path="/papers" element={<Papers />} />
+            <Route path="/paper/:id" element={<PaperPage />} />
+            <Route path="/saved" element={<Saved />} />
+            <Route path="/upload" element={<Upload />} />
+            <Route path="/upload/:id" element={<UploadPaperPage />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </Suspense>
       </main>
       <footer className="site-foot">
         <p>
