@@ -1,0 +1,105 @@
+{
+  "id": "2024-05-q2",
+  "year": 2024,
+  "term": "May",
+  "exam": "Quiz 2",
+  "source": "https://drive.google.com/file/d/1ExHG9cckvAGhHWRw9dM5uhhYMQ_babMF/view",
+  "questions": [
+    {
+      "n": 1, "type": "MSQ", "marks": 2, "week": 8,
+      "q": "Which of the following option(s) is(are) true?",
+      "options": [
+        "An event $A$ is said to be independent of another event $B$, if $P(A \\mid B) \\ne P(A)$.",
+        "For two events $A$ and $B$, $P(A \\cap B) = P(B) \\times P(A \\mid B)$, where $P(B) > 0$.",
+        "For two events $A$ and $B$, $P(A \\cap B) = P(A) \\times P(B \\mid A)$, where $P(A) > 0$.",
+        "Events $A$ and $B$ are said to be disjoint if $P(A \\cap B) = P(A) \\times P(B)$."
+      ],
+      "correct": [1, 2]
+    },
+    {
+      "n": 2, "type": "NAT", "marks": 3, "week": 8,
+      "context": "A city has three main taxi companies: Red Taxi, Blue Taxi, and Green Taxi. Historical data shows that 20% of the passengers use Red Taxi, 50% use Blue Taxi, and 30% use Green Taxi. 5% of the cars from Red Taxi, 4% from Blue Taxi, and 8% from Green Taxi have engine issues.",
+      "q": "Find the probability that a randomly chosen passenger gets a taxi with engine issues. Enter the answer correct to three decimal places.",
+      "answer": { "min": 0.051, "max": 0.057 }
+    },
+    {
+      "n": 3, "type": "NAT", "marks": 3, "week": 8,
+      "context": "A city has three main taxi companies: Red Taxi, Blue Taxi, and Green Taxi. Historical data shows that 20% of the passengers use Red Taxi, 50% use Blue Taxi, and 30% use Green Taxi. 5% of the cars from Red Taxi, 4% from Blue Taxi, and 8% from Green Taxi have engine issues.",
+      "q": "Given that a passenger gets a taxi with engine issues, find the probability that the passenger took a ride with the Green taxi company. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.41, "max": 0.47 }
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 2, "week": 8,
+      "context": "There are 200 employees in a company. There are 40 employees who know Python language and 50 employees who know SQL. Out of these, there are 10 who know both Python and SQL. Let $E_1$ be the event that a randomly selected employee knows Python and $E_2$ be the event that a selected employee knows SQL.",
+      "q": "Are the events $E_1$ and $E_2$ independent?",
+      "options": ["Yes", "No", "Cannot say anything."],
+      "correct": [0]
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 2, "week": 7,
+      "context": "There are 200 employees in a company. There are 40 employees who know Python language and 50 employees who know SQL. Out of these, there are 10 who know both Python and SQL. Let $E_1$ be the event that a randomly selected employee knows Python and $E_2$ be the event that a selected employee knows SQL.",
+      "q": "Find the value of $P(E_1 \\cup E_2)$. Enter the answer correct to one decimal place.",
+      "answer": 0.4
+    },
+    {
+      "n": 6, "type": "MCQ", "marks": 2, "week": 6,
+      "context": "A committee of 7 members has to be formed from 9 Men and 4 Women.",
+      "q": "In how many ways can this be done when the committee consists of exactly 3 Women?",
+      "options": ["276", "36", "715", "504"],
+      "correct": [3]
+    },
+    {
+      "n": 7, "type": "MCQ", "marks": 3, "week": 6,
+      "context": "A committee of 7 members has to be formed from 9 Men and 4 Women.",
+      "q": "In how many ways can this be done when the committee consists of at least 3 Women?",
+      "options": ["544", "588", "504", "Cannot determine."],
+      "correct": [1]
+    },
+    {
+      "n": 8, "type": "MCQ", "marks": 2, "week": 6,
+      "q": "In a hockey team consisting of 11 players, each player shakes hands with every other player exactly once before the match begins. How many handshakes occur among the teammates?",
+      "options": ["121", "55", "110", "22"],
+      "correct": [1]
+    },
+    {
+      "n": 9, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "A box contains 3 white balls, 3 black balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one red ball is to be included in the draw?",
+      "options": ["97", "100", "104", "60"],
+      "correct": [1]
+    },
+    {
+      "n": 10, "type": "MCQ", "marks": 3, "week": 5,
+      "q": "Praveen attempts a question paper of 12 questions. Each question has 4 choices. If he answers the questions randomly, then find the number of ways in which he can attempt the entire paper.",
+      "options": ["48", "56", "$4^{12}$", "$12^4$"],
+      "correct": [2]
+    },
+    {
+      "n": 11, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "In a dinner party, there are 2 males and 5 females who need to be seated around a round table. In how many ways can they be seated so that no two males are seated next to each other?",
+      "options": ["420", "480", "600", "680"],
+      "correct": [1]
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 4, "week": 6,
+      "q": "If $\\dfrac{^{10}P_{r+3}}{^{8}P_r} = 90$, then what is the value of $^rP_2$?",
+      "options": ["7", "21", "42", "Insufficient information."],
+      "correct": [2]
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 7,
+      "q": "Pramod goes to a shop to buy some clothes. Shopkeeper shows him 7 shirts, 4 pants and 12 t-shirts. If he selects three clothes at random, then find the probability that the randomly chosen clothes are of different type. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.16, "max": 0.22 }
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 7,
+      "q": "$A$, $B$ and $C$ are three mutually exclusive and exhaustive events associated with a random experiment. If $P(A) = p$, $P(B) = \\frac{3}{2}P(A)$ and $P(C) = \\frac{1}{2}P(B)$, then find the value of $p$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.28, "max": 0.34 }
+    },
+    {
+      "n": 15, "type": "MSQ", "marks": 3, "week": 7,
+      "q": "Let a sample space $S = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$. Consider the following three events:\n\n$$E = \\{1, 2, 5\\},\\quad F = \\{4, 6, 7\\} \\quad\\text{and}\\quad G = \\{1, 3, 8\\}$$\n\nWhich of the following option(s) is(are) correct?",
+      "options": ["$E \\cup F = \\{1, 2, 5, 6, 7\\}$", "$E \\cap G = \\{1\\}$", "$(F \\cup G)^C = \\{2, 5\\}$", "$E \\cap F = \\{8\\}$"],
+      "correct": [1, 2]
+    }
+  ]
+}

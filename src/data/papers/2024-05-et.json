@@ -1,0 +1,145 @@
+{
+  "id": "2024-05-et",
+  "year": 2024,
+  "term": "May",
+  "exam": "End Term",
+  "source": "https://drive.google.com/file/d/1k-AfxYcgM1G2rU38s6bpfABtfVMjRtJN/view",
+  "questions": [
+    {
+      "n": 1, "type": "NAT", "marks": 3, "week": 11,
+      "q": "A florist prepares bouquets for customers each day. For each bouquet, there is a 30% chance that it will include a specific rare flower. Find the probability that at most one bouquet out of five will include this rare flower. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.50, "max": 0.56 }
+    },
+    {
+      "n": 2, "type": "NAT", "marks": 3, "week": 8,
+      "q": "Suppose person A makes accurate predictions about the weather with a probability of $4/7$ and person B makes accurate predictions with a probability of $2/3$. If you ask both of them their predictions about tomorrow’s weather, what is the probability that their predictions will be contradictory? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.45, "max": 0.51 }
+    },
+    {
+      "n": 3, "type": "NAT", "marks": 3, "week": 7,
+      "q": "A box contains 10 red marbles, 8 blue marbles, and 12 green marbles. If one marble is drawn at random, what is the probability that it is either red or green? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.70, "max": 0.76 }
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 3, "week": 6,
+      "q": "There are 42 ways to fill the position of captain and a vice captain from a team of $n$ members. What is the value of $n$?",
+      "answer": 7
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 3, "week": 3,
+      "q": "If the mean and sample variance of the data $1, 6, 10, 14, 4, x_1, x_2$ are 7 and $53/3$ respectively, then find the value of $|x_1 - x_2|$.",
+      "answer": 2
+    },
+    {
+      "n": 6, "type": "MCQ", "marks": 3, "week": 12,
+      "q": "If $X \\sim \\text{Exp}(\\lambda)$, then find the value of $P(X \\le 2 + x \\mid X \\ge 2)$.",
+      "options": ["$P(X \\le 2)$", "$P(X \\le x)$", "$P(X > 2)$", "$P(X > x)$"],
+      "correct": [1]
+    },
+    {
+      "n": 7, "type": "MCQ", "marks": 3, "week": 10,
+      "q": "The probability mass function of a discrete random variable $X$ is given by\n\n| $x$ | 1 | 3 | 5 |\n|---|---|---|---|\n| $P(X = x)$ | $1/4$ | $1/2$ | $1/4$ |\n\nFind the value of $E(X^2 - 1)$.",
+      "options": ["11", "10", "12", "44"],
+      "correct": [1]
+    },
+    {
+      "n": 8, "type": "MCQ", "marks": 3, "week": 4,
+      "q": "Let $r$ be the sample correlation coefficient for the data pairs $(x_i, y_i)$, $i = 1, 2, \\dots, n$. Then, find the sample correlation coefficient for the data pairs $(a + bx_i, c + dy_i)$, $i = 1, 2, \\dots, n$, provided that $b$ and $d$ have the same sign.",
+      "options": ["$(ac + bd)r$", "$r$", "1", "Insufficient information"],
+      "correct": [1]
+    },
+    {
+      "n": 9, "type": "MSQ", "marks": 2, "week": 12,
+      "q": "If $X \\sim \\text{Normal}(\\mu, \\sigma^2)$, where $\\mu = 80$ and $\\sigma = 10$. Then $P(X > 80)$ is equal to:",
+      "options": ["$P(Z > 0)$, where $Z$ is standard normal variable.", "0", "0.5", "1"],
+      "correct": [0, 2]
+    },
+    {
+      "n": 10, "type": "MSQ", "marks": 2, "week": 9,
+      "q": "Which of the following statements is(are) true about CDF (cumulative distribution function)?",
+      "options": [
+        "It is always increasing or constant.",
+        "CDF lies between −1 to 1.",
+        "The probability that a random variable takes on a value less than or equal to a specified value.",
+        "CDF is not defined for a continuous random variable."
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 11, "type": "MSQ", "marks": 2, "week": 6,
+      "q": "Which of the following options is(are) correct?",
+      "options": [
+        "$^nP_r = \\dfrac{^nC_r}{r!}$",
+        "$^nC_r = {^nC_{n-r}}$",
+        "Permutation does not consider the order of the objects, while combination does.",
+        "$\\dfrac{^nP_r}{^nC_r} = r!$"
+      ],
+      "correct": [1, 3]
+    },
+    {
+      "n": 12, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following options is (are) correct?",
+      "options": [
+        "The number of new car registrations each month for the past two years is a cross-sectional data.",
+        "The types of beverages sold in a cafe is a qualitative variable.",
+        "The color of a car has a nominal scale of measurement.",
+        "Based on a sample, it is concluded that 60% of the city’s population will vote in the upcoming election comes under Descriptive Statistics."
+      ],
+      "correct": [1, 2]
+    },
+    {
+      "n": 13, "type": "MSQ", "marks": 2, "week": 2,
+      "q": "A pie chart displays the distribution of favorite sports among students as follows:\n\n- Basketball: 25%\n- Baseball: 20%\n- Soccer: 30%\n- Tennis: 15%\n- Other: 10%\n\nWhich of the following statements is(are) true?",
+      "options": [
+        "More students prefer Baseball over Tennis.",
+        "Basketball is the most popular sport.",
+        "Soccer and Tennis together account for 45% of the student’s preferences.",
+        "Other sports are preferred by more than 10% of students."
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 11,
+      "context": "Suppose $X$ follows Poisson distribution such that $3P(X = 2) = 6P(X = 1)$.",
+      "q": "What is the value of $E(X^2)$?",
+      "answer": 20
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 11,
+      "context": "Suppose $X$ follows Poisson distribution such that $3P(X = 2) = 6P(X = 1)$.",
+      "q": "Find the standard deviation of $X$.",
+      "answer": 2
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 1, "week": 12,
+      "context": "A parking garage charges an hourly rate and the time spent by cars in the garage follows a uniform distribution between 1 hour and 5 hours.",
+      "q": "What is the probability that a randomly selected car will spend exactly 2 hours?",
+      "answer": 0
+    },
+    {
+      "n": 17, "type": "NAT", "marks": 3, "week": 12,
+      "context": "A parking garage charges an hourly rate and the time spent by cars in the garage follows a uniform distribution between 1 hour and 5 hours.",
+      "q": "What is the probability that a randomly selected car will spend more than 3 hours in the garage? Enter the answer correct to one decimal place.",
+      "answer": 0.5
+    },
+    {
+      "n": 18, "type": "MCQ", "marks": 3, "week": 10,
+      "context": "The probability mass function of a discrete random variable $X$ is given by\n\n| $x$ | 0 | 1 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $p$ | $1 - 2p$ | $p$ |\n\nwhere $0 \\le p \\le \\frac{1}{2}$.",
+      "q": "Find the value of $\\operatorname{Var}(X)$ in terms of $p$.",
+      "options": ["$p$", "$1 + 2p$", "$2p$", "1"],
+      "correct": [2]
+    },
+    {
+      "n": 19, "type": "NAT", "marks": 2, "week": 10,
+      "context": "The probability mass function of a discrete random variable $X$ is given by\n\n| $x$ | 0 | 1 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $p$ | $1 - 2p$ | $p$ |\n\nwhere $0 \\le p \\le \\frac{1}{2}$.",
+      "q": "What is the value of $E(3X + 2)$?",
+      "answer": 5
+    },
+    {
+      "n": 20, "type": "NAT", "marks": 2, "week": 9,
+      "context": "The probability mass function of a discrete random variable $X$ is given by\n\n| $x$ | 0 | 1 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $p$ | $1 - 2p$ | $p$ |\n\nwhere $0 \\le p \\le \\frac{1}{2}$.",
+      "q": "If $p = \\frac{1}{4}$, then find the value of $P(X \\le 1)$. Enter the answer correct to two decimal places.",
+      "answer": 0.75
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "2024-05-q1",
+  "year": 2024,
+  "term": "May",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/1MijDULxSE22H7Ryl6rLGRxhvsl7QRsQI/view",
+  "questions": [
+    {
+      "n": 1, "type": "MSQ", "marks": 2, "week": 2,
+      "q": "Figure Q.1 shows the sales distribution of the number of bottles of different types of soft drinks in a shop on a particular day.\n\nWhich of the following option(s) is/are true?",
+      "figure": "2024-05-q1-softdrinks.png",
+      "options": [
+        "Median of the data will be either “Mountain Dew” or “Mirinda”.",
+        "The data is bimodal.",
+        "Mode is not defined for the given data.",
+        "Median is not defined for the given data."
+      ],
+      "correct": [1, 3]
+    },
+    {
+      "n": 2, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following statement(s) is/are true?",
+      "options": [
+        "Structured data does not follow a predefined format, whereas unstructured data does.",
+        "Recording of the data over time comes under Cross Sectional data.",
+        "Time (in minutes) taken by a student to reach school from his home is a continuous variable.",
+        "Comments on a youtube video comes under the unstructured data."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 3, "type": "NAT", "marks": 2, "week": 2,
+      "context": "Table Q.1 represents the number of books read by five students in a year.\n\n| Students | Number of books | Relative frequency |\n|---|---|---|\n| Sunil | 15 | $x$ |\n| Prateek |  | $y$ |\n| Kanika | 6 | 0.1 |\n| Kunal | 15 |  |\n| Sonakshi |  | $z$ |",
+      "q": "What is the value of $x$? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.23, "max": 0.27 }
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 3, "week": 2,
+      "context": "Table Q.1 represents the number of books read by five students in a year.\n\n| Students | Number of books | Relative frequency |\n|---|---|---|\n| Sunil | 15 | $x$ |\n| Prateek |  | $y$ |\n| Kanika | 6 | 0.1 |\n| Kunal | 15 |  |\n| Sonakshi |  | $z$ |",
+      "q": "If the number of books read by Prateek is same as the number of books read by Sonakshi, then find the value of $y + z$.",
+      "options": ["0.2", "0.24", "0.4", "Insufficient information."],
+      "correct": [2]
+    },
+    {
+      "n": 5, "type": "MCQ", "marks": 2, "week": 4,
+      "context": "Amit took a survey of a group of 32 college going students (consisting only of male and female students) to know whether they own a smartphone or not and he got to know the following information.\n\n- (i) There are 3 males who do not own a smartphone.\n- (ii) There are total 27 females.\n- (iii) There are total 26 students who do not own a smartphone.",
+      "q": "Create a two-way contingency table and find out the number of males in this group who own a smartphone.",
+      "options": ["0", "2", "3", "4"],
+      "correct": [1]
+    },
+    {
+      "n": 6, "type": "MSQ", "marks": 3, "week": 4,
+      "context": "Amit took a survey of a group of 32 college going students (consisting only of male and female students) to know whether they own a smartphone or not and he got to know the following information.\n\n- (i) There are 3 males who do not own a smartphone.\n- (ii) There are total 27 females.\n- (iii) There are total 26 students who do not own a smartphone.",
+      "q": "Choose the correct option(s) after making a two-way contingency table.",
+      "options": [
+        "There are 40% of the males who do not own a smartphone.",
+        "There are 14.81% of the females who own a smartphone.",
+        "18.75% of the total students own a smartphone.",
+        "We can calculate covariance to find the association between “Gender” and “Ownership of the smartphone”."
+      ],
+      "correct": [1, 2]
+    },
+    {
+      "n": 7, "type": "MCQ", "marks": 3, "week": 1,
+      "q": "Consider the following three statements:\n\n- Statement 1: Election symbol is a categorical variable.\n- Statement 2: Election symbol has a nominal scale of measurement.\n- Statement 3: Number of votes received by a candidate is a continuous variable.\n\nChoose the correct option from the following:",
+      "options": [
+        "Statement-2 and statement-3 both are correct.",
+        "Statement-1 and statement-3 both are correct.",
+        "Statement-1 and statement-2 both are correct.",
+        "All statements are correct."
+      ],
+      "correct": [2]
+    },
+    {
+      "n": 8, "type": "MCQ", "marks": 2, "week": 1,
+      "q": "Choose the correct statement from the following:",
+      "options": [
+        "Descriptive statistics is concerned with drawing of conclusions from the sample data.",
+        "Inferential statistics is concerned with describing and summarizing the data.",
+        "Inferential statistics doesn’t require sample data.",
+        "All statements are incorrect."
+      ],
+      "correct": [3]
+    },
+    {
+      "n": 9, "type": "MCQ", "marks": 2, "week": 4,
+      "q": "Consider the following four scatter plots (Figure Q.2). Select the option that represents the correlation values arranged in ascending order.",
+      "figure": "2024-05-q1-scatter.png",
+      "options": ["$A < B < C < D$", "$B < C < D < A$", "$B < A < C < D$", "$A < D < C < B$"],
+      "correct": [1]
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 3, "week": 3,
+      "q": "If the mean of the observations $x_1, x_2, \\dots, x_8$ is 6 and the mean of observations $x_8, x_9, \\dots, x_{15}$ is 13. Given that $x_8 = 3$, what will be the mean of the observations $x_1, x_2, \\dots, x_{15}$? Enter the answer correct to two decimal places.",
+      "answer": { "min": 9.90, "max": 9.96 }
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 4,
+      "q": "Find the population covariance between $X$ and $Y$ for the dataset given in Table Q.2.\n\n| $X$ | $-3$ | $-4$ | $-5$ | 5 | 4 | 3 |\n|---|---|---|---|---|---|---|\n| $Y$ | 10 | 5 | 3 | 3 | 5 | 10 |",
+      "answer": 0
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 2, "week": 3,
+      "context": "The marks (out of 100) scored by Manoj in a semester exam are given as 60, 70, 65, 75, 80. Nitin has scored 5 marks more than Manoj in each subject.",
+      "q": "Find the mean of the marks scored by Nitin.",
+      "answer": 75
+    },
+    {
+      "n": 13, "type": "MCQ", "marks": 4, "week": 3,
+      "context": "The marks (out of 100) scored by Manoj in a semester exam are given as 60, 70, 65, 75, 80. Nitin has scored 5 marks more than Manoj in each subject.",
+      "q": "If the teacher wants to give the marks out of 50 and modify the marks for every student as\n\n$$\\text{Modified marks} = \\frac{\\text{Marks} \\times 50}{100}$$\n\nWhat is the population variance of the modified marks scored by Manoj?",
+      "options": ["25", "50", "12.5", "Cannot determine"],
+      "correct": [2]
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 2, "week": 4,
+      "context": "The marks (out of 100) scored by Manoj in a semester exam are given as 60, 70, 65, 75, 80. Nitin has scored 5 marks more than Manoj in each subject.",
+      "q": "Calculate the correlation coefficient between the marks scored by Manoj and Nitin.",
+      "answer": 1
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 3,
+      "context": "The stem and leaf diagram below shows the ages (in years) of a group of people attending the Paradox event.\n\n| Stem | Leaf |\n|---|---|\n| 1 | 4 5 8 |\n| 2 | 1 2 4 |\n| 3 | 1 1 2 3 3 3 4 |\n\nHere, 1 | 4 represents 14 years.",
+      "q": "What will be the median age for this group?",
+      "answer": 31
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 1, "week": 3,
+      "context": "The stem and leaf diagram below shows the ages (in years) of a group of people attending the Paradox event.\n\n| Stem | Leaf |\n|---|---|\n| 1 | 4 5 8 |\n| 2 | 1 2 4 |\n| 3 | 1 1 2 3 3 3 4 |\n\nHere, 1 | 4 represents 14 years.",
+      "q": "How many people are above 23 years of age in the given stem and leaf plot?",
+      "answer": 8
+    },
+    {
+      "n": 17, "type": "NAT", "marks": 1, "week": 3,
+      "q": "The mode of the observations $x_1, x_2, \\dots, x_n$ is 40. What is the mode of the observations $2x_1 + 10, 2x_2 + 10, \\dots, 2x_n + 10$?",
+      "answer": 90
+    },
+    {
+      "n": 18, "type": "MSQ", "marks": 1, "week": 3,
+      "q": "Choose the correct option(s):",
+      "options": [
+        "25th percentile is known as the first quartile.",
+        "Median is the 60th percentile of any data.",
+        "Inter-quartile range is defined as the difference between third quartile and second quartile.",
+        "We need to arrange the data in ascending order to calculate the percentile."
+      ],
+      "correct": [0, 3]
+    }
+  ]
+}

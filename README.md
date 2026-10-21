@@ -31,6 +31,7 @@ The build uses a relative base path, so `dist/` also works on Netlify, Vercel or
 ```jsonc
 {
   "id": "2025-05-q1", "year": 2025, "term": "May", "exam": "Quiz 1",   // term: Jan | May | Sep
+  "session": "FN",                                                       // optional: FN | AN when a term had two different papers
   "source": "https://drive.google.com/...",                              // optional link to the original PDF
   "questions": [
     {
@@ -52,8 +53,13 @@ The build uses a relative base path, so `dist/` also works on Netlify, Vercel or
 |---|---|---|---|
 | May 2026 | ✓ | ✓ | ✓ |
 | Jan 2026 | ✓ | ✓ | ✓ |
-| Sep 2025 | | ✓ | ✓ |
+| Sep 2025 | ✓ | ✓ | ✓ |
+| May 2025 | ✓ | ✓ | ✓ (FN + AN) |
+| Jan 2025 | ✓ | ✓ | ✓ (FN + AN) |
+| Sep 2024 | ✓ | ✓ | ✓ |
+| May 2024 | ✓ | ✓ | ✓ |
+| Jan 2024 | ✓ | ✓ | ✓ |
 
-Older terms are being added from the combined question-paper PDFs.
+Papers before Sep 2025 come from the official combined answer-key PDFs (all subjects in one file); only the Statistics I section is used. In those PDFs the key is colour-coded (green = correct).
 
 *Not an official IIT Madras resource. Answer keys are taken from the source papers; a few that look questionable carry a note.*
