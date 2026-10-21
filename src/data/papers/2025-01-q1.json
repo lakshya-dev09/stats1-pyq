@@ -1,0 +1,130 @@
+{
+  "id": "2025-01-q1",
+  "year": 2025,
+  "term": "Jan",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/1vZo9GZUWSXW1eueyQojQpA9TJNN_MSuA/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 2, "week": 1,
+      "q": "A researcher collects data on the number of books read by students in a semester. The data collected is:",
+      "options": ["Nominal and Qualitative", "Ordinal and Qualitative", "Interval and Quantitative", "Ratio and Quantitative"],
+      "correct": [3]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 2, "week": 4,
+      "q": "A study was conducted to investigate the association between smoking habits and lung disease within a population. The collected data is presented in Table Q.3.\n\n|  | Have Lung Disease | Do Not Have Lung Disease | Total |\n|---|---|---|---|\n| Smoker | 40 | $x$ | 100 |\n| Non-Smoker | $y$ | 180 | 200 |\n| Total | 60 | 240 | 300 |\n\nWhat proportion of non-smokers have lung disease?",
+      "options": ["0.10", "0.60", "0.20", "0.30"],
+      "correct": [0]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 3, "week": 3,
+      "q": "Consider a dataset of 40 items. Suppose the sum of the squared deviations from the mean is 10 and total sum of all the items in the dataset is 80. Find the mean $\\bar{x}$ and population standard deviation $\\sigma$ of the dataset.",
+      "options": ["$\\bar{x} = 2, \\sigma = 0.25$", "$\\bar{x} = 2, \\sigma = 0.5$", "$\\bar{x} = 3200, \\sigma = 0.5$", "$\\bar{x} = 0.5, \\sigma = 0.25$"],
+      "correct": [1]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Suppose a survey asks respondents to indicate their favorite type of food (e.g., Italian, Chinese, Indian, Mexican). Which of the following option(s) is (are) true?",
+      "options": ["The data is nominal.", "The data is ordinal.", "The data is quantitative.", "The data is qualitative."],
+      "correct": [0, 3]
+    },
+    {
+      "n": 5, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "A teacher randomly selects 5 students from each class in a school. Based on the performance of these students, she wants to assess the overall performance of the school. Which of the following option(s) is (are) true?",
+      "options": [
+        "Students of a particular class will represent the population.",
+        "Students of a particular class form the sample.",
+        "The school as a whole represents the population.",
+        "The 5 students from each class form the sample."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 6, "type": "MSQ", "marks": 2, "week": 2,
+      "q": "Table Q.4 presents the frequency distribution of various T-shirt sizes among a group of 50 students.\n\n| Sizes | Frequency |\n|---|---|\n| Small | 10 |\n| Medium | 25 |\n| Large | 15 |\n\nAccording to this data which is the correct graphical representation of this data? (More than one option can be correct.) Each option describes a bar chart of frequency against size, with bars listed left to right.",
+      "options": [
+        "Small 10, Medium 25, Large 15",
+        "Medium 25, Large 10, Small 15",
+        "Small 25, Medium 15, Large 10",
+        "Large 15, Medium 25, Small 10"
+      ],
+      "correct": [0, 3],
+      "note": "In the original paper the options are bar-chart images; they are described here as the bar heights read left to right."
+    },
+    {
+      "n": 7, "type": "MSQ", "marks": 3, "week": 3,
+      "q": "If we have a dataset 18, 37, 24, 56, 62, 120, then choose the correct option(s):",
+      "options": [
+        "Range of the dataset is 102.",
+        "Median of the dataset is 46.5.",
+        "25th percentile of the dataset is 24.",
+        "IQR (Inter-quartile range) of the dataset is 59."
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 4,
+      "q": "A researcher collected data on the amount of fertilizer (in kilograms) applied and the crop yield (in kilograms per hectare) for 5 different fields. The data is summarized in Table Q.2.\n\n| $X$: Fertilizer Applied (kg) | $Y$: Crop Yield (kg/hectare) |\n|---|---|\n| 2 | 30 |\n| 3 | 35 |\n| 4 | 45 |\n| 5 | 50 |\n| 6 | 60 |\n\nCalculate population covariance between $X$ and $Y$.",
+      "answer": 15
+    },
+    {
+      "n": 9, "type": "MSQ", "marks": 2, "week": 3,
+      "context": "A grocery store owner wants to analyze the prices of different brands of packaged snacks in his store. He randomly collected 10 snack packets and their prices (in rupees) are 120, 450, 620, 200, 280, 670, 150, 190, 310, 400 respectively.",
+      "q": "At what price do the top 25% of snack packets start? (More than one option can be correct)",
+      "options": ["It corresponds to the third quartile.", "450 Rupees.", "It corresponds to the first quartile.", "190 Rupees."],
+      "correct": [0, 1]
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 3,
+      "context": "A grocery store owner wants to analyze the prices of different brands of packaged snacks in his store. He randomly collected 10 snack packets and their prices (in rupees) are 120, 450, 620, 200, 280, 670, 150, 190, 310, 400 respectively.",
+      "q": "What is the Interquartile Range (IQR) of the snack packet prices?",
+      "answer": 260
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 2, "week": 2,
+      "context": "Figure Q.1 shows the pie chart representation of the percentage of participated students in a particular game from different states. Total number of participated students is 125.",
+      "figure": "2025-01-q1-pie.png",
+      "q": "Find the number of students from Uttar Pradesh.",
+      "answer": 30
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 3, "week": 2,
+      "context": "Figure Q.1 shows the pie chart representation of the percentage of participated students in a particular game from different states. Total number of participated students is 125.",
+      "figure": "2025-01-q1-pie.png",
+      "q": "If the number of participated students from Delhi is twice the number of students participated from Maharashtra, then find the value of $y$.",
+      "answer": 32
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 3, "week": 3,
+      "context": "The monthly salaries (in thousands) offered to employees in a company are represented in the following stem-and-leaf plot:\n\n| Stem | Leaf |\n|---|---|\n| 1 | 2 4 6 |\n| 2 | 0 2 4 |\n| 3 | 1 2 6 |\n\nHere, 5 | 2 represents 52.",
+      "q": "What is the average monthly salary of the employees if each observation is increased by 3 and then multiplied by 2?",
+      "answer": 52
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 3,
+      "context": "The monthly salaries (in thousands) offered to employees in a company are represented in the following stem-and-leaf plot:\n\n| Stem | Leaf |\n|---|---|\n| 1 | 2 4 6 |\n| 2 | 0 2 4 |\n| 3 | 1 2 6 |\n\nHere, 5 | 2 represents 52.",
+      "q": "What is the population variance of the given data if 10 is added to each observation?",
+      "answer": 64
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 3, "week": 2,
+      "context": "Table Q.1 represents the number of questions attempted by five students in an exam.\n\n| Name of the student | Number of attempted questions | Relative frequency |\n|---|---|---|\n| Jatin | $a + 3$ | $x$ |\n| Astha | $a$ | $y$ |\n| Ayushi | 6 | 0.1 |\n| Rajat | $a + 3$ |  |\n| Deepanshu | $a$ | $z$ |",
+      "q": "Find the total number of questions attempted by Astha and Deepanshu together.",
+      "answer": 24
+    },
+    {
+      "n": 16, "type": "NAT", "marks": 1, "week": 2,
+      "context": "Table Q.1 represents the number of questions attempted by five students in an exam.\n\n| Name of the student | Number of attempted questions | Relative frequency |\n|---|---|---|\n| Jatin | $a + 3$ | $x$ |\n| Astha | $a$ | $y$ |\n| Ayushi | 6 | 0.1 |\n| Rajat | $a + 3$ |  |\n| Deepanshu | $a$ | $z$ |",
+      "q": "What is the value of $x$? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.22, "max": 0.28 }
+    },
+    {
+      "n": 17, "type": "MCQ", "marks": 2, "week": 2,
+      "context": "Table Q.1 represents the number of questions attempted by five students in an exam.\n\n| Name of the student | Number of attempted questions | Relative frequency |\n|---|---|---|\n| Jatin | $a + 3$ | $x$ |\n| Astha | $a$ | $y$ |\n| Ayushi | 6 | 0.1 |\n| Rajat | $a + 3$ |  |\n| Deepanshu | $a$ | $z$ |",
+      "q": "What is the value of $y + z$?",
+      "options": ["0.2", "0.24", "0.4", "Insufficient information."],
+      "correct": [2]
+    }
+  ]
+}

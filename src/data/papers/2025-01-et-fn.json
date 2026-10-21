@@ -1,0 +1,124 @@
+{
+  "id": "2025-01-et-fn",
+  "year": 2025,
+  "term": "Jan",
+  "exam": "End Term",
+  "session": "FN",
+  "source": "https://drive.google.com/file/d/1f6Zp6V2LJVhar2W6PHgTn6uZLZL7t-ri/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 1, "week": 11,
+      "q": "A box contains 10 marbles, 6 of which are red and 4 are blue. A sample of 4 marbles is randomly selected without replacement. Let the random variable $X$ represent the number of red marbles in the selected sample. Identify the distribution of $X$.",
+      "options": ["Hypergeometric", "Poisson", "Binomial", "Uniform"],
+      "correct": [0]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 2, "week": 3,
+      "q": "The population standard deviation of the dataset $2, x, 10, 8, 14$ is 4, where $x$ is an unknown quantity. Find the value of the population variance of the new dataset that is obtained by multiplying 2 to each number of the given dataset.",
+      "options": ["64", "18", "16", "32"],
+      "correct": [0]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "A license plate consists of 2 capital letter alphabets followed by 4 digits.\n\n- The letters can be any of the capital letter alphabets, but no letter can be repeated.\n- The digits can be chosen from $\\{1, 3, 4, 5, 8\\}$, with no repetition.\n\nHow many unique license plates can be formed?",
+      "options": ["318240", "78000", "18720", "39000"],
+      "correct": [1]
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "A group of 7 people (A, B, C, D, E, F, G) is to be seated in a row for a photograph. Find the number of possible arrangements such that D and E cannot sit next to each other.",
+      "options": ["3600", "4320", "5040", "720"],
+      "correct": [0]
+    },
+    {
+      "n": 5, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following option(s) is/are correct for a variable with an ordinal scale of measurement?",
+      "options": [
+        "The data can be arranged in a meaningful order.",
+        "Arithmetic operations like addition and subtraction are valid.",
+        "The intervals between values are equal and meaningful.",
+        "The mode and median can be determined, but not the mean."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 2, "week": 10,
+      "q": "Let $X$ and $Y$ be independent random variables such that $E[X] = 5$, $E[Y] = 7$ and $\\operatorname{Var}(X) = 4$. Suppose a random variable $Z$ is defined as $Z = 2X + 3Y$. If $\\operatorname{Var}(Z) = 49$, then find the value of $\\operatorname{Var}(Y)$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 3.64, "max": 3.70 }
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 2, "week": 8,
+      "q": "A company classifies its customers into three categories based on their purchasing behavior: Regular, Occasional, and Rare. The probabilities of a customer being classified as Regular, Occasional and Rare are 0.5, 0.3 and 0.2, respectively. The probability that a customer makes a purchase, given their category, is:\n\n- $P(\\text{Purchase} \\mid \\text{Regular}) = 0.8$\n- $P(\\text{Purchase} \\mid \\text{Occasional}) = 0.4$\n- $P(\\text{Purchase} \\mid \\text{Rare}) = 0.1$\n\nFind the probability that a randomly chosen customer makes a purchase. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.51, "max": 0.57 }
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 11,
+      "q": "A call center receives customer calls and the number of calls received per hour follows a Poisson distribution with a mean rate of 6 calls per hour. What is the probability that at most 2 calls are received in 30 minutes? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.39, "max": 0.45 }
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 2, "week": 3,
+      "context": "Consider a dataset such as 8, 12, 16, 24, and 20. Suppose we multiply all observations by 3.",
+      "q": "What will be the $25^{\\text{th}}$ percentile of the new dataset?",
+      "answer": 36
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 3,
+      "context": "Consider a dataset such as 8, 12, 16, 24, and 20. Suppose we multiply all observations by 3.",
+      "q": "Find IQR of the new dataset.",
+      "answer": 24
+    },
+    {
+      "n": 11, "type": "MCQ", "marks": 2, "week": 11,
+      "context": "Let $X \\sim \\text{Binomial}(n, 0.6)$. The expected value of $X$ is 3.",
+      "q": "Find the value of $n$ and $\\operatorname{Var}(X)$.",
+      "options": ["$n = 5$, $\\sigma^2 = 1.8$", "$n = 5$, $\\sigma^2 = 1.2$", "$n = 3$, $\\sigma^2 = 1.2$", "$n = 3$, $\\sigma^2 = 1.8$"],
+      "correct": [1]
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 2, "week": 11,
+      "context": "Let $X \\sim \\text{Binomial}(n, 0.6)$. The expected value of $X$ is 3.",
+      "q": "What is the value of $P(X = 3)$?",
+      "options": ["0.023", "0.230", "0.346", "0.035"],
+      "correct": [2]
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 9,
+      "context": "A random variable $X$ represents the number of items sold by a vendor in a day. The cumulative distribution function (CDF) of $X$ is given below:\n\n$$F(x) = \\begin{cases} 0 & x < 0 \\\\ 0.15 & 0 \\le x < 1 \\\\ a & 1 \\le x < 2 \\\\ 0.75 & 2 \\le x < 3 \\\\ 1 & x \\ge 3 \\end{cases}$$",
+      "q": "If the probability that the vendor sells exactly 2 items in a day is 0.30, then find the value of $a$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.43, "max": 0.47 }
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 2, "week": 9,
+      "context": "A random variable $X$ represents the number of items sold by a vendor in a day. The cumulative distribution function (CDF) of $X$ is given below:\n\n$$F(x) = \\begin{cases} 0 & x < 0 \\\\ 0.15 & 0 \\le x < 1 \\\\ a & 1 \\le x < 2 \\\\ 0.75 & 2 \\le x < 3 \\\\ 1 & x \\ge 3 \\end{cases}$$\n\nThe probability that the vendor sells exactly 2 items in a day is 0.30.",
+      "q": "What is the probability that the vendor sells at least 2 items in a day? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.53, "max": 0.57 }
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 3, "week": 10,
+      "context": "The probability mass function of a discrete random variable $X$ is given by,\n\n| $X$ | $-2$ | 0 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $\\frac{1}{4}$ | $\\frac{1}{2}$ | $\\frac{1}{4}$ |",
+      "q": "Find the value of $E(3X - 4)^2$.",
+      "answer": 34
+    },
+    {
+      "n": 16, "type": "MCQ", "marks": 2, "week": 10,
+      "context": "The probability mass function of a discrete random variable $X$ is given by,\n\n| $X$ | $-2$ | 0 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $\\frac{1}{4}$ | $\\frac{1}{2}$ | $\\frac{1}{4}$ |",
+      "q": "Determine the standard deviation of $X$.",
+      "options": ["1", "$\\sqrt{2}$", "2", "4"],
+      "correct": [1]
+    },
+    {
+      "n": 17, "type": "NAT", "marks": 2, "week": 12,
+      "context": "The time taken by a coffee machine to brew a cup of coffee is uniformly distributed between 2 and $b$ minutes.",
+      "q": "If the expected time for the coffee machine to brew a cup of coffee is 8.5 minutes, then find the value of $b$.",
+      "answer": 15
+    },
+    {
+      "n": 18, "type": "MCQ", "marks": 3, "week": 12,
+      "context": "The time taken by a coffee machine to brew a cup of coffee is uniformly distributed between 2 and $b$ minutes, with an expected brewing time of 8.5 minutes.",
+      "q": "If the coffee machine has been brewing for more than 6 minutes, what is the probability that it will finish brewing between 6 and 10 minutes?",
+      "options": ["$\\frac{4}{9}$", "$\\frac{4}{13}$", "$\\frac{9}{13}$", "$\\frac{2}{9}$"],
+      "correct": [0]
+    }
+  ]
+}

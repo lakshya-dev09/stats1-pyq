@@ -1,0 +1,104 @@
+{
+  "id": "2025-01-q2",
+  "year": 2025,
+  "term": "Jan",
+  "exam": "Quiz 2",
+  "source": "https://drive.google.com/file/d/1SrbB0WRtJjwzWtNGAiots9LvPPbFXXsZ/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 2, "week": 7,
+      "q": "Consider the following events:\n\n- (A) Drawing a red card from a standard deck of 52 cards.\n- (B) Rolling a sum of 10 with two independent rolls of an unbiased die.\n\nWhich of these events has the maximum probability?",
+      "options": ["A", "B", "Both have the same probability"],
+      "correct": [0]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "In how many ways can 6 people be arranged in a line such that two specific people, A and B, must never be next to each other?",
+      "options": ["480", "720", "240", "600"],
+      "correct": [0]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "A company needs to select a team of 5 members from a group of 12 employees. Out of these, 3 specific roles need to be assigned: Team Leader, Manager, and Analyst. How many different ways can the team be selected and the roles allocated?",
+      "options": ["95040", "47520", "1320", "4752"],
+      "correct": [1]
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "In how many different ways can the letters of the word **“AMERICA”** be arranged such that the consonants always come together?",
+      "options": ["720", "360", "120", "5040"],
+      "correct": [1]
+    },
+    {
+      "n": 5, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "Out of 6 boys and 4 girls, how many queues of 3 boys and 2 girls can be formed?",
+      "options": ["120", "14400", "1440", "252"],
+      "correct": [1]
+    },
+    {
+      "n": 6, "type": "MSQ", "marks": 2, "week": 7,
+      "q": "Which of the following option(s) is(are) correct?",
+      "options": [
+        "Probability values can be negative.",
+        "The probability of an event and its complement always add up to 0.",
+        "The probability of two independent events occurring simultaneously is the product of their individual probabilities.",
+        "The set of all possible outcomes of a random experiment is called sample space."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 7, "type": "MSQ", "marks": 4, "week": 8,
+      "q": "Consider an experiment of rolling a fair four sided die twice where all the possible outcomes are equally likely. Define the events\n\n- $A$ = 1st roll results in a 1\n- $B$ = Sum of the two rolls is a 7\n- $C$ = 2nd roll results in a 2\n\nWhich among the following statements are true?",
+      "options": [
+        "Events $A$ and $C$ are independent.",
+        "Events $A$, $B$ and $C$ are mutually exclusive.",
+        "Events $A$, $B$ and $C$ are exhaustive.",
+        "$P(A \\mid (B \\cup C)) = \\frac{1}{6}$"
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 2, "week": 5,
+      "q": "A box contains three distinct white balls, four distinct black balls, and three distinct red balls. Find the number of ways in which three balls can be drawn from the box so that all three drawn balls have different colors.",
+      "answer": 36
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 2, "week": 7,
+      "q": "If $P(C) = 0.5$, $P(A \\cup B) = 0.7$ and $P(A \\cup B \\cup C) = 0.9$, then what is the value of $P((A \\cup B) \\cap C)$? Enter the answer correct to one decimal place.",
+      "answer": 0.3
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 8,
+      "q": "A card is randomly drawn from a standard deck of 52 playing cards. If the chosen card is known to be a face card (King, Queen, or Jack), what is the probability that it is also an Ace?",
+      "answer": 0
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 6,
+      "q": "The number of ways to arrange $n + 1$ objects in a line is equal to 6 times the number of ways to arrange $n$ objects in a line. Find the value of $n$.",
+      "answer": 5
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 3, "week": 6,
+      "q": "In how many ways can 7 people be arranged around a circular table if one specific person must always occupy a fixed seat, which cannot be changed?",
+      "answer": 120,
+      "note": "This is the official key, but it looks wrong. Once one person's seat is fixed, the other 6 people fill 6 distinct seats in $6! = 720$ ways."
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 3, "week": 7,
+      "q": "There are 6 dark chocolates and 5 milk chocolates in a fridge. A person selects 3 chocolates from the fridge at random. Find the probability that among the chocolates drawn there is at least one chocolate of each type. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.79, "max": 0.85 }
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 8,
+      "context": "At a school, 30% of students are members of the Science Club, while 70% are members of the Art Club. Data indicates that the probability of passing a specific test, given that a student is in the Science Club, is 0.8, whereas the probability of passing the same test, given membership in the Art Club, is 0.4.",
+      "q": "What is the probability that a randomly selected student passes the test? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.49, "max": 0.55 }
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 8,
+      "context": "At a school, 30% of students are members of the Science Club, while 70% are members of the Art Club. Data indicates that the probability of passing a specific test, given that a student is in the Science Club, is 0.8, whereas the probability of passing the same test, given membership in the Art Club, is 0.4.",
+      "q": "If a randomly selected student is known to have passed the test, what is the probability that this student is a member of the Science Club? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.43, "max": 0.49 }
+    }
+  ]
+}
