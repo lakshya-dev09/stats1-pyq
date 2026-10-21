@@ -1,0 +1,106 @@
+{
+  "id": "2025-05-et-fn",
+  "year": 2025,
+  "term": "May",
+  "exam": "End Term",
+  "session": "FN",
+  "source": "https://drive.google.com/file/d/11al8yW_C7E51yksXmVua6GvxIDUGKSM6/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 3, "week": 3,
+      "q": "Consider the dataset 10, 27, 32, 15 and 22. A new dataset is obtained by subtracting 3 from every observation. Compute the value of ($70^{\\text{th}}$ percentile of new dataset) − ($30^{\\text{th}}$ percentile of the old dataset).",
+      "options": ["$-3$", "9", "3", "$-9$"],
+      "correct": [1]
+    },
+    {
+      "n": 2, "type": "MSQ", "marks": 1, "week": 2,
+      "q": "Which of the following statements is/are true?",
+      "options": [
+        "Median can be measured for a categorical variable only if the variable is nominal.",
+        "Mode can not be defined for categorical data.",
+        "There can be more than one mode for a data.",
+        "The sum of relative frequencies of all the observations in a given data set is always equal to 1."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 3, "week": 12,
+      "q": "Let $X$ represent the cancellation lead time (in hours) for hotel bookings, where $X$ follows an exponential distribution with mean of 30 hours. What is the value of $x$ such that $P(X \\ge x) = 0.20$? (More than one option can be correct.)",
+      "options": ["$-30 \\times \\ln(0.20)$", "$30 \\times \\ln(0.20)$", "$-\\dfrac{\\ln(0.20)}{30}$", "$1 - (30 \\times \\ln(0.20))$", "$30 \\times \\ln(5)$"],
+      "correct": [0, 4]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 3, "week": 6,
+      "q": "Let $n$ and $r$ be integers such that $n \\ge r \\ge 1$. Which of the following option(s) is/are true?",
+      "options": [
+        "$^nP_{r+1} = {^nP_r} \\cdot (n - r)$; where $n \\ge r + 1$",
+        "$\\dfrac{^nC_r}{^rC_r} = {^nP_r} \\cdot \\dfrac{1}{r!}$",
+        "The number of ways to select 3 students from a group of 5 is $^5C_3$.",
+        "The number of ways to distribute 3 distinct prizes among 10 students is $^{10}C_3$."
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 3, "week": 12,
+      "q": "The time $T$ (in hours) it takes to repair a device is uniformly distributed over the interval $[a, b]$. It is known that the probability that the repair takes more than 7 hours is equal to the probability that it takes less than 3 hours. Find the value of $a + b$.",
+      "answer": 10
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 2,
+      "q": "A dataset contains four distinct values $a, b, c, d$, with total frequency equal to 200. The relative frequencies of $a$ and $d$ are 0.20 and 0.25 respectively and the frequency of $b$ is 40. What is the cumulative relative frequency of $c$ and $d$ together? Enter the answer correct to one decimal place.",
+      "answer": { "min": 0.5, "max": 0.7 }
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 3, "week": 10,
+      "q": "Anjali and Ramesh are playing a game in which each independently executes one database query. The probability that a query is successfully resolved is 60%. The game has the following rules:\n\n- If exactly one player resolves the query successfully, that player gets ₹120 and the other player gets ₹0.\n- If both succeed or both fail, then each gets ₹60.\n\nWhat is the expected amount Ramesh gets?",
+      "answer": 60
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 7,
+      "q": "If two fair dice are thrown, what is the probability that the sum is either 4 or 9? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.17, "max": 0.21 }
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 8,
+      "q": "Table Q.2 shows the preferred mode of project work (Solo or Group) among MBA students across two specializations: Marketing and Finance.\n\n|  | Marketing | Finance |\n|---|---|---|\n| Solo Project | 18 | 12 |\n| Group Project | 32 | 38 |\n\nGiven that a student is from finance, what is the probability that they prefer Group Project work? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.73, "max": 0.79 }
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 9,
+      "context": "The probability mass function of a discrete random variable $X$ is given by\n\n| $X$ | 0 | 1 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $c + 0.1$ | $c$ | 0.5 |",
+      "q": "Find the value of $c$ such that $X$ has a valid pmf. Enter the answer correct to one decimal place.",
+      "answer": 0.2
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 10,
+      "context": "The probability mass function of a discrete random variable $X$ is given by\n\n| $X$ | 0 | 1 | 2 |\n|---|---|---|---|\n| $P(X = x)$ | $c + 0.1$ | $c$ | 0.5 |",
+      "q": "Find the value of $\\operatorname{Var}(X)$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.73, "max": 0.79 }
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 3, "week": 11,
+      "context": "A biased coin is independently tossed 5 times. Let the probability of getting heads on a single toss be $p$, and let $X$ denote the total number of heads obtained in the 5 tosses.",
+      "q": "Find the value of $p$ such that $P(X = 3) = 1.5 \\times P(X = 2)$.",
+      "options": ["$\\frac{1}{3}$", "$\\frac{3}{5}$", "$\\frac{1}{4}$", "$\\frac{2}{7}$"],
+      "correct": [1]
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 11,
+      "context": "A biased coin is independently tossed 5 times. Let the probability of getting heads on a single toss be $p$, and let $X$ denote the total number of heads obtained in the 5 tosses, where $P(X = 3) = 1.5 \\times P(X = 2)$.",
+      "q": "Let $Y$ represent the total number of tails in 5 tosses. Find the value of $E(Y)$.",
+      "answer": 2
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 2, "week": 9,
+      "context": "A warehouse monitors the number of defective items in randomly chosen boxes as part of its quality control process. Each box contains 50 items. Let $X$ represent the number of defective items in a randomly selected box, with the following distribution:\n\n$$P(X = x) = \\begin{cases} \\dfrac{x+1}{10}, & x = 0, 1, 2, 3 \\\\ 0, & \\text{otherwise.} \\end{cases}$$",
+      "q": "What is the probability that a randomly selected box contains at most 1 defective item? Enter the answer correct to one decimal place.",
+      "answer": 0.3
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 3, "week": 10,
+      "context": "A warehouse monitors the number of defective items in randomly chosen boxes as part of its quality control process. Each box contains 50 items. Let $X$ represent the number of defective items in a randomly selected box, with the following distribution:\n\n$$P(X = x) = \\begin{cases} \\dfrac{x+1}{10}, & x = 0, 1, 2, 3 \\\\ 0, & \\text{otherwise.} \\end{cases}$$",
+      "q": "Find the value of $E(4X^2 + 2)$.",
+      "answer": 22
+    }
+  ]
+}

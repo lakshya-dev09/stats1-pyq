@@ -1,0 +1,112 @@
+{
+  "id": "2025-09-q1",
+  "year": 2025,
+  "term": "Sep",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/1maUUU0PAWSXGtY9yfBeCiPg9uVLqBJS8/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 2, "week": 2,
+      "q": "A cab driver received ratings from 10 customers on a given day, which are:\n\n$$7, 8, 6, 9, 7, 5, 8, 9, 8, x$$\n\nIf the relative frequency of rating 9 is 0.30. Find the value of $x$.",
+      "options": ["7", "9", "8", "6"],
+      "correct": [1]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 3, "week": 4,
+      "q": "Table 2 represents the responses of 120 students about their preferred mode of learning (Online vs Offline) and their year of study (First Year, Second Year).\n\n|  | First Year | Second Year | Total |\n|---|---|---|---|\n| Online | 40 | 20 | 60 |\n| Offline | 20 | 40 | 60 |\n| Total | 60 | 60 | 120 |\n\nIs mode of learning associated with the year of study?",
+      "options": ["Yes", "No"],
+      "correct": [0]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 3, "week": 3,
+      "q": "A sales team of 30 members has an average monthly sales of ₹60,000. The top 10 performers have an average of ₹90,000, while the bottom 10 performers have an average of ₹30,000. What is the average monthly sales of the middle 10 performers?",
+      "options": ["₹48000", "₹45000", "₹30000", "₹60000"],
+      "correct": [3]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "If addition and subtraction are meaningful operation for a variable, then the scale(s) of measurement of the variable could be:",
+      "options": ["Ratio", "Nominal", "Ordinal", "Interval"],
+      "correct": [0, 3]
+    },
+    {
+      "n": 5, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following statements correctly describe Descriptive and Inferential Statistics?",
+      "options": [
+        "Descriptive statistics uses probability theory to draw conclusions, while inferential statistics is represented through tables, charts, and graphs.",
+        "Inferential statistics involves using sample data to make generalizations or predictions about a population.",
+        "Both descriptive and inferential statistics only deal with numerical data, not categorical data.",
+        "Descriptive statistics involves summarizing data using measures such as mean, median, and standard deviation."
+      ],
+      "correct": [1, 3]
+    },
+    {
+      "n": 6, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Choose the correct statement(s).",
+      "options": [
+        "Cross-sectional data are collected at a single point in time across several individuals, firms, or regions etc.",
+        "Time series data involve observations on a variable measured at a single point of time.",
+        "Nominal scale provides both labelling and meaningful ranking of categories.",
+        "Ratio scale has an absolute zero and allows for comparison of both differences and ratios between observations."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 2, "week": 4,
+      "q": "A company studied the relationship between advertising expenditure ($X$) and sales revenue ($Y$) across 12 months. The following summary statistics were calculated:\n\n|  | $X$ | $Y$ |\n|---|---|---|\n| Arithmetic mean | 8 | 60 |\n| Sum of squares of deviation from mean | 100 | 400 |\n\nAlso, sum of product of deviation of $X$ and $Y$ from respective means is 160. Using the information, compute the correlation coefficient between advertising expenditure and sales revenue. Enter the answer correct to one decimal place.",
+      "answer": 0.8
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 2,
+      "q": "Table 4 represents the responses of the students of their preferred movie type.\n\n| Movie Type | Frequency | Relative Frequency |\n|---|---|---|\n| Action | 36 | 0.30 |\n| Comedy | $a$ | 0.25 |\n| Drama | $b$ | 0.20 |\n| Horror | $c$ | $d$ |\n| Others | $e$ | 0.10 |\n\nFind the value of $a + b + c$.",
+      "answer": 72
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 4, "week": 4,
+      "q": "Table 3 displays the data recorded by an ice-cream vendor, showing the outdoor temperature (°C) and the number of ice creams sold on four different days.\n\n| Day | Temperature ($X$) | Ice-creams Sold ($Y$) |\n|---|---|---|\n| 1 | 20 | 30 |\n| 2 | 25 | 55 |\n| 3 | 30 | 70 |\n| 4 | 45 | 85 |\n\nCalculate the population covariance between temperature and ice-creams sold.",
+      "answer": 175
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 4, "week": 3,
+      "q": "A startup recorded the daily step counts (in thousands) of 8 users:\n\n$$8, 17, 15, 19, 21, 25, 23, 35$$\n\nTo spot unusually active users, the startup sets a threshold defined as:\n\n$$\\text{Threshold} = Q_3 + 1.5 \\times IQR$$\n\nAny user whose step count is above this threshold will be marked as an outlier. How many users will be marked as outliers?",
+      "answer": 0
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 5, "week": 3,
+      "q": "There are 4 observations whose mean is 5 and population variance is 2.5. Two of the observations are known to be 4 and 6. Find the product of the remaining two observations.",
+      "answer": 21
+    },
+    {
+      "n": 12, "type": "MSQ", "marks": 2, "week": 3,
+      "context": "A logistics company tracks the daily number of parcels delivered by two of its branches over a period of 5 days.\n\n- Branch A shows an average of 36 deliveries per day with a standard deviation of 0.\n- Branch B also has an average of 36 deliveries per day, but with a standard deviation of 8.",
+      "q": "Choose the correct statement(s).",
+      "options": [
+        "Since both branches have the same average, their performance is equally consistent.",
+        "Branch A is more consistent than Branch B because its standard deviation is lower.",
+        "Branch A delivers exactly 36 parcels every day, while Branch B’s daily deliveries fluctuate around 36.",
+        "Consistency should be evaluated only on the basis of the mean."
+      ],
+      "correct": [1, 2]
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 3,
+      "context": "A logistics company tracks the daily number of parcels delivered by two of its branches over a period of 5 days.\n\n- Branch A shows an average of 36 deliveries per day with a standard deviation of 0.\n- Branch B also has an average of 36 deliveries per day, but with a standard deviation of 8.",
+      "q": "The company recorded the number of parcels delivered by Branch B, with a standard deviation of 8, as:\n\n$$30, 45, 25, 35, 45$$\n\nHowever, the manager mistakenly reported each value as:\n\n$$60, 90, 50, 70, 90$$\n\nDetermine the variance of the reported data.",
+      "answer": 256
+    },
+    {
+      "n": 14, "type": "MCQ", "marks": 2, "week": 4,
+      "context": "Table 1 shows the ticket sales recorded by the multiplex for four different categories of movies across three years.\n\n| Year | Action | Drama | Comedy | Sci-fi |\n|---|---|---|---|---|\n| 2021 | 20 | 40 | 20 | 20 |\n| 2022 | 30 | 50 | 10 | 10 |\n| 2023 | 25 | 35 | 15 | 25 |",
+      "q": "Considering the data from all three years together, determine the overall market share (in percentage) of each movie category and identify which category has the highest share.",
+      "options": ["Action", "Drama", "Comedy", "Sci-fi"],
+      "correct": [1]
+    },
+    {
+      "n": 15, "type": "MCQ", "marks": 2, "week": 4,
+      "context": "Table 1 shows the ticket sales recorded by the multiplex for four different categories of movies across three years.\n\n| Year | Action | Drama | Comedy | Sci-fi |\n|---|---|---|---|---|\n| 2021 | 20 | 40 | 20 | 20 |\n| 2022 | 30 | 50 | 10 | 10 |\n| 2023 | 25 | 35 | 15 | 25 |",
+      "q": "The manager wants to analyze the market shares (%) of Action and Drama movies for each year. Determine the maximum absolute percentage difference between the market shares of these two categories over the given years.",
+      "options": ["10%", "40%", "50%", "20%"],
+      "correct": [3]
+    }
+  ]
+}

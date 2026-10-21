@@ -1,0 +1,121 @@
+{
+  "id": "2025-05-q1",
+  "year": 2025,
+  "term": "May",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/1PVcitjMu16Ijlc6H5zHqL-_1rOOgFKTm/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 3, "week": 3,
+      "q": "The marks obtained by Meera in six tests are:\n\n$$55, 60, 60, 62, 65, 68$$\n\nIf she scores 70 marks in the seventh test, how will it impact the measures of central tendency?",
+      "options": [
+        "The mean will increase, but the median will remain the same.",
+        "Both the mean and median will increase, but mode will stay unchanged.",
+        "All three measures (mean, median, and mode) will increase.",
+        "Only mode will increase."
+      ],
+      "correct": [1]
+    },
+    {
+      "n": 2, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "In February 2025, a health organization collected information from five patients at a clinic to study lifestyle and health indicators. The collected data is presented in the Table Q.3.\n\n| Patient ID | BMI (kg/m²) | Hours of sleep | Smoker | Blood Pressure (mm Hg) |\n|---|---|---|---|---|\n| P101 | 22.5 | 7 | No | 120/80 |\n| P102 | 27.8 | 6 | Yes | 135/85 |\n| P103 | 25.0 | 8 | No | 125/82 |\n| P104 | 30.1 | 5 | Yes | 140/90 |\n| P105 | 23.6 | 7 | No | 118/78 |\n\nWhich of the following option(s) is/are correct?",
+      "options": [
+        "BMI is a continuous variable.",
+        "The variable “Smoker” is ordinal in nature.",
+        "Drawing conclusions about the smoking habits of the entire city based on this sample is an application of descriptive statistics.",
+        "P104 represents a case."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following option(s) is/are correct?",
+      "options": [
+        "The roll number of a student is an example of an ordinal variable.",
+        "A histogram is an appropriate graph to display the counts of shirts based on their colours.",
+        "Recording the number of customers served by different restaurants in a city on a particular day is an example of cross-sectional data.",
+        "The battery life (in hours) of a laptop is a numerical and continuous variable."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "A government agency aims to evaluate the cleanliness standards of hospitals in a specific district of Uttar Pradesh. To do this, they randomly selected 20 hospitals and assigned each a cleanliness rating on a scale from 1 to 5, where\n\n- 1 : Very Poor\n- 2 : Poor\n- 3 : Average\n- 4 : Good\n- 5 : Excellent\n\nBased on this scenario, which of the following statement(s) is(are) correct?",
+      "options": [
+        "The sample consists of all hospitals in that district.",
+        "The cleanliness ratings are measured on a nominal scale of measurement.",
+        "The population is all hospitals in that district.",
+        "If the agency concludes that “the cleanliness of all hospitals in the district is Good”, this would be an example of inferential statistics."
+      ],
+      "correct": [2, 3]
+    },
+    {
+      "n": 5, "type": "MSQ", "marks": 3, "week": 4,
+      "q": "In a university, 12,500 students appeared in a qualifier exam. Table Q.1 shows the result of the students based on their specialization of the course.\n\n| Specialization | Pass | Fail |\n|---|---|---|\n| Engineering | 3500 | 1000 |\n| Arts | 2000 | 3000 |\n| Business | 2500 | 500 |\n\nWhich of the following option(s) is(are) correct?",
+      "options": [
+        "Result of the exam is associated with the course specialization of the student.",
+        "Result of the exam is not associated with the course specialization of the student.",
+        "Among engineering students, 77.78% passed the qualifier exam.",
+        "Among business students, 11.11% did not pass the qualifier exam."
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 6, "type": "MSQ", "marks": 4, "week": 3,
+      "q": "Two different coding bootcamps recorded how many hours their top 4 students took to finish their final project:\n\n- Bootcamp A : 9, 10, 11, 10\n- Bootcamp B : 8, 10, 12, 10\n\nWhich of the following statement(s) correctly describes the variability in completion times between the two bootcamps?",
+      "options": [
+        "Bootcamp A has lower variation in completion times than Bootcamp B.",
+        "Bootcamp B has lower variation in completion times than Bootcamp A.",
+        "There is no variation in completion times for either bootcamp.",
+        "The range of completion times is smaller in Bootcamp A than in Bootcamp B."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 3, "week": 3,
+      "q": "The mean of the dataset 6, 9, $y$, 15, 20 is 12. What is the sample standard deviation of the new dataset if 5 is added to each number in the given dataset? Enter the answer correct to two decimal places.",
+      "answer": { "min": 5.49, "max": 5.55 }
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 3,
+      "q": "A company conducted an online test as part of its hiring process. The test completion times (in minutes) for 8 candidates are given below:\n\n$$48, 52, 49, 50, 60, 47, 46, 53$$\n\nTo shortlist candidates for further rounds, the company decides to eliminate the slowest 80% and retain only the top 20% fastest candidates based on their test completion time. What is the maximum test completion time (in minutes) a candidate can have to be in the top 20% fastest group?",
+      "answer": 47
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 3,
+      "q": "Figure Q.1 represents the time (in minutes) spent by 6 students on a math puzzle during the first week.\n\n| Stem | Leaf |\n|---|---|\n| 2 | 5 |\n| 3 | 0 5 |\n| 4 | 0 5 |\n| 5 | 0 |\n\nHere, 4 | 2 represents 42 minutes. In the second week, each student spent twice as much time on the puzzle as they did in the first week. What is the average time each student spent on the puzzle in the second week?",
+      "answer": 75
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 5, "week": 4,
+      "q": "A fitness coach records whether the clients meet their weekly exercise goal (Yes = 1, No = 0) and their body fat percentage after 3 months. The data is collected from four clients and represented in Table Q.2.\n\n| Client | Exercise Goal ($X$) | Body Fat % ($Y$) |\n|---|---|---|\n| 1 | 1 | 30 |\n| 2 | 0 | 20 |\n| 3 | 1 | 20 |\n| 4 | 0 | 10 |\n\nCalculate the absolute point bi-serial correlation coefficient between the exercise goal and body fat (%). Enter the answer correct up to two decimal places.",
+      "answer": { "min": 0.68, "max": 0.74 }
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 2,
+      "context": "A survey was conducted among $X$ number of college students to find out how many online courses they completed during a semester. The data is summarized in Table Q.4.\n\n| Number of courses completed | Frequency | Relative Frequency |\n|---|---|---|\n| 0 | 8 |  |\n| 1 | $a$ |  |\n| 2 | 20 |  |\n| 3 | $2a$ | 0.3 |\n| 4 | 10 | 0.125 |\n| 5 | $b$ |  |",
+      "q": "How many students have completed less than 2 courses?",
+      "answer": 20
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 2, "week": 2,
+      "context": "A survey was conducted among $X$ number of college students to find out how many online courses they completed during a semester. The data is summarized in Table Q.4.\n\n| Number of courses completed | Frequency | Relative Frequency |\n|---|---|---|\n| 0 | 8 |  |\n| 1 | $a$ |  |\n| 2 | 20 |  |\n| 3 | $2a$ | 0.3 |\n| 4 | 10 | 0.125 |\n| 5 | $b$ |  |",
+      "q": "What is the relative frequency of students who completed 4 or more online courses in the semester? Enter the answer correct to one decimal place.",
+      "answer": 0.2
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 2,
+      "context": "Figure Q.2 represents the percentage of employees from various departments who attended a company’s professional development training. The total number of attendees is 540.",
+      "figure": "2025-05-q1-pie.png",
+      "q": "After the training, 10% of all the total participants were promoted. Half of those promoted were from the Sales department, and 2/3 of the promoted Sales employees accepted the offer. How many Sales employees accepted the promotion?",
+      "answer": 18
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 2,
+      "context": "Figure Q.2 represents the percentage of employees from various departments who attended a company’s professional development training. The total number of attendees is 540.",
+      "figure": "2025-05-q1-pie.png",
+      "q": "How many more employees attended the training from the Sales department than from the IT department?",
+      "answer": 54
+    }
+  ]
+}

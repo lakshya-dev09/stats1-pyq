@@ -1,0 +1,109 @@
+{
+  "id": "2025-05-q2",
+  "year": 2025,
+  "term": "May",
+  "exam": "Quiz 2",
+  "source": "https://drive.google.com/file/d/1ogh8lIKhTnSbg1tOFkAEEBXfDT_tJPXV/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 2, "week": 7,
+      "q": "If $P(C) = 0.3$, $P(A \\cup B) = 0.6$ and $P(A \\cup B \\cup C) = 0.8$, what is the value of $P((A \\cup B) \\cap C)$?",
+      "options": ["0.2", "0.1", "1", "0.3"],
+      "correct": [1]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 3, "week": 7,
+      "q": "A survey of 800 students shows that 65% like reading and 50% like painting. If each student likes at least one of the two activities, how many students like painting but not reading?",
+      "options": ["240", "400", "280", "120"],
+      "correct": [2]
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 3, "week": 6,
+      "q": "How many numbers greater than 10,000 can be formed using the digits 0, 2, 5, 4, 6, 8 without repetition?",
+      "options": ["600", "120", "240", "1200"],
+      "correct": [3]
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 2, "week": 7,
+      "q": "In a quiz competition, eight students are competing, each assigned a roll number from 1 to 8. What is the probability that only students with prime-numbered roll numbers (i.e., 2, 3, 5, 7) secure the top four ranks, in any order? Enter the answer correct to three decimal places.",
+      "answer": { "min": 0.011, "max": 0.017 }
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 2, "week": 6,
+      "q": "A company has 15 offices and wants to set up two-way communication between every pair of offices. However, the 3 smallest offices will not have direct communication with one another, though each of them can still connect directly with the remaining offices. How many communication channels are needed in total?",
+      "answer": 102
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 6,
+      "q": "A group of 4 teachers and 4 students is to be seated around a circular table for a discussion. They decide that all students must sit together. Find the number of ways they can be seated around the table such that all students are sitting together.",
+      "answer": 576
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 3, "week": 6,
+      "q": "A basket contains 5 red balls and 4 green balls. If 3 balls are to be selected at random without replacement, in how many ways can the balls be selected such that at least one green ball is included?",
+      "answer": 74
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 5,
+      "q": "How many 5-digit numbers can be formed using the digits 0, 2, 3, 4, and 7 where digits may be repeated such that the number is divisible by 2?",
+      "answer": 1500
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 8,
+      "q": "A box C contains 3 white balls and 2 black balls, while box D contains 4 white balls and 3 black balls. One ball is randomly selected from box C and transferred to box D. After the transfer, one ball is drawn at random from box D. What is the probability that the ball drawn from box D is black? Enter the answer correct to three decimal places.",
+      "answer": { "min": 0.422, "max": 0.428 }
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 3, "week": 6,
+      "q": "In how many different ways can the letters of the word ‘ARTICLE’ be arranged such that all the vowels always come together?",
+      "answer": 720
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 3, "week": 6,
+      "q": "A committee of 3 people is to be formed from a group of $n$ people. The number of possible committees in which two particular people A and B are both included together is 7. Find the number of ways in which committee can be formed.",
+      "answer": 84
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 2, "week": 7,
+      "context": "A bag contains 12 gold and 9 silver coins. Two successive draws are made without replacement:\n\n- In the first draw, 3 coins are selected at random.\n- In the second draw, 4 coins are selected from the remaining coins.",
+      "q": "What is the probability that exactly 2 gold and 1 silver coin are drawn in the first draw?",
+      "options": [
+        "$\\dfrac{^{12}C_2 + {^9}C_1}{^{21}C_3}$",
+        "$\\dfrac{^{12}C_1 \\times {^9}C_2}{^{21}C_3}$",
+        "$\\dfrac{^{12}C_2 \\times {^9}C_1}{^{21}C_3}$",
+        "$\\dfrac{^{12}C_3}{^{21}C_3}$"
+      ],
+      "correct": [2]
+    },
+    {
+      "n": 13, "type": "MCQ", "marks": 3, "week": 8,
+      "context": "A bag contains 12 gold and 9 silver coins. Two successive draws are made without replacement:\n\n- In the first draw, 3 coins are selected at random.\n- In the second draw, 4 coins are selected from the remaining coins.",
+      "q": "Given that the first draw results in 2 gold coins and 1 silver coin, what is the probability that the second draw results in exactly 2 silver coins and at least 1 gold coin?",
+      "options": [
+        "$\\dfrac{^{8}C_2 \\times {^{10}}C_1}{^{21}C_4}$",
+        "$\\dfrac{^{8}C_2 \\times {^{10}}C_2}{^{18}C_4}$",
+        "$\\dfrac{^{9}C_2 \\times {^{12}}C_2}{^{18}C_4}$",
+        "$\\dfrac{^{12}C_2 \\times {^{9}}C_2}{^{18}C_4}$"
+      ],
+      "correct": [1]
+    },
+    {
+      "n": 14, "type": "MSQ", "marks": 3, "week": 8,
+      "context": "A college is forming a 3-member student panel by randomly selecting students from a group of 6 students. The group consists of 3 Mathematics students and 3 Statistics students. Every possible selection of 3 students is equally likely. Let the events be defined as follows:\n\n- Event $E_1$: The selected panel includes at least one Mathematics student.\n- Event $E_2$: The selected panel includes only Statistics students.",
+      "q": "Which of the following option(s) is / are correct?",
+      "options": [
+        "Events $E_1$ and $E_2$ are mutually exclusive.",
+        "Events $E_1$ and $E_2$ are independent.",
+        "There is only 1 favorable outcome for event $E_2$.",
+        "All of these"
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 2, "week": 6,
+      "context": "A college is forming a 3-member student panel by randomly selecting students from a group of 6 students. The group consists of 3 Mathematics students and 3 Statistics students. Every possible selection of 3 students is equally likely. Let the events be defined as follows:\n\n- Event $E_1$: The selected panel includes at least one Mathematics student.\n- Event $E_2$: The selected panel includes only Statistics students.",
+      "q": "How many panels include at least one Mathematics student?",
+      "answer": 19
+    }
+  ]
+}

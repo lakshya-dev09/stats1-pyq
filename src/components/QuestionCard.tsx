@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { answerText, checkNumeric, type Question } from '../lib/data';
+import { answerText, checkNumeric, examName, type Question } from '../lib/data';
 import { Markdown } from '../lib/Markdown';
 import { useProgress } from '../lib/progress';
 import { weekByNumber } from '../data/weeks';
@@ -62,7 +62,7 @@ export function QuestionCard({ q, index, context, showContext = true }: Props) {
           {index !== undefined && <span className="qnum">Q{index}</span>}
           {context === 'week' ? (
             <Link to={`/paper/${q.paper.id}`} className="tag tag-term" title="Open the full paper">
-              {q.paper.term} {q.paper.year} · {q.paper.exam}
+              {q.paper.term} {q.paper.year} · {examName(q.paper)}
             </Link>
           ) : (
             <Link to={`/week/${q.week}`} className="tag tag-week" title={week?.title}>

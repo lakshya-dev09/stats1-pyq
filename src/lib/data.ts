@@ -22,6 +22,8 @@ export interface Paper {
   year: number;
   term: Term;
   exam: Exam;
+  /** Exam shift, when a term had different papers in the forenoon and afternoon. */
+  session?: 'FN' | 'AN';
   source?: string;
   questions: RawQuestion[];
 }
@@ -40,7 +42,11 @@ const modules = import.meta.glob<Paper>('../data/papers/*.json', { eager: true, 
 export const recency = (p: Paper) => p.year * 10 + TERM_ORDER[p.term];
 
 export const PAPERS: Paper[] = Object.values(modules).sort(
-  (a, b) => recency(b) - recency(a) || EXAM_ORDER[a.exam] - EXAM_ORDER[b.exam],
+  (a, b) =>
+    recency(b) - recency(a) ||
+    EXAM_ORDER[a.exam] - EXAM_ORDER[b.exam] ||
+    // FN before AN
+    (b.session ?? '').localeCompare(a.session ?? ''),
 );
 
 export const QUESTIONS: Question[] = PAPERS.flatMap((paper) =>
@@ -53,7 +59,9 @@ export const questionsForWeek = (week: number) => QUESTIONS.filter((q) => q.week
 
 export const termLabel = (p: Paper) => `${p.term} ${p.year}`;
 
-export const paperLabel = (p: Paper) => `${p.exam} · ${termLabel(p)}`;
+export const examName = (p: Paper) => (p.session ? `${p.exam} (${p.session})` : p.exam);
+
+export const paperLabel = (p: Paper) => `${examName(p)} · ${termLabel(p)}`;
 
 export const EXAMS: Exam[] = ['Quiz 1', 'Quiz 2', 'End Term'];
 

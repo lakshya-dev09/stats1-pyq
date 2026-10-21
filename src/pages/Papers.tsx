@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { TERMS, totalMarks } from '../lib/data';
+import { TERMS, examName, totalMarks } from '../lib/data';
 import { useProgress } from '../lib/progress';
 
 const examIcon: Record<string, string> = { 'Quiz 1': 'Q1', 'Quiz 2': 'Q2', 'End Term': 'ET' };
@@ -28,7 +28,7 @@ export default function Papers() {
                   <Link key={p.id} to={`/paper/${p.id}`} className="paper-card">
                     <span className="paper-badge">{examIcon[p.exam]}</span>
                     <div>
-                      <h3>{p.exam}</h3>
+                      <h3>{examName(p)}</h3>
                       <p>
                         {p.questions.length} questions · {totalMarks(p)} marks
                       </p>

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { PAPERS, QUESTIONS, TERMS, questionsForWeek } from '../lib/data';
+import { PAPERS, QUESTIONS, TERMS, examName, questionsForWeek } from '../lib/data';
 import { WEEKS } from '../data/weeks';
 import { useProgress } from '../lib/progress';
 
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="paper-row">
             {latest.papers.map((p) => (
               <Link key={p.id} to={`/paper/${p.id}`} className="paper-chip">
-                <strong>{p.exam}</strong>
+                <strong>{examName(p)}</strong>
                 <span>{p.questions.length} questions</span>
               </Link>
             ))}

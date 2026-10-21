@@ -22,6 +22,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
   if (`${p.id}.json` !== file) errors.push(`${file}: id "${p.id}" does not match filename`);
   if (!['Jan', 'May', 'Sep'].includes(p.term)) errors.push(`${file}: bad term ${p.term}`);
   if (!['Quiz 1', 'Quiz 2', 'End Term'].includes(p.exam)) errors.push(`${file}: bad exam ${p.exam}`);
+  if (p.session !== undefined && !['FN', 'AN'].includes(p.session)) errors.push(`${file}: bad session ${p.session}`);
   const seen = new Set();
   for (const q of p.questions) {
     const where = `${file} Q${q.n}`;

@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom';
-import { QUESTIONS, paperById, totalMarks } from '../lib/data';
+import { QUESTIONS, examName, paperById, totalMarks } from '../lib/data';
 import { QuestionCard } from '../components/QuestionCard';
 import { useProgress } from '../lib/progress';
 
@@ -33,7 +33,7 @@ export default function PaperPage() {
           <p className="eyebrow">
             {paper.term} {paper.year} term
           </p>
-          <h1>{paper.exam}</h1>
+          <h1>{examName(paper)}</h1>
           <p className="lede">
             {qs.length} questions · {totalMarks(paper)} marks
             {paper.source && (

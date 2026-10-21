@@ -1,0 +1,112 @@
+{
+  "id": "2025-05-et-an",
+  "year": 2025,
+  "term": "May",
+  "exam": "End Term",
+  "session": "AN",
+  "source": "https://drive.google.com/file/d/10s-1icdPCvbHHSRL7Qi1kfz1INpROEU7/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 2, "week": 6,
+      "q": "Find the number of rearrangements of the letters in the word COMMITTEE.",
+      "options": ["$9!$", "$\\dfrac{9!}{3! \\times 2!}$", "$\\dfrac{9!}{2!}$", "$\\dfrac{9!}{2! \\times 2! \\times 2!}$"],
+      "correct": [3]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 2, "week": 9,
+      "q": "The CDF (cumulative distribution function) of a discrete random variable $X$ is given as:\n\n$$F(x) = \\begin{cases} 0 & x < 1 \\\\ 1/5 & 1 \\le x < 2 \\\\ 3/5 & 2 \\le x < 3 \\\\ 4/5 & 3 \\le x < 4 \\\\ 1 & x \\ge 4 \\end{cases}$$\n\nFind the value of $P(X \\le 3)$.",
+      "options": ["0.6", "0.8", "0.2", "1"],
+      "correct": [1]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 2, "week": 12,
+      "q": "Let $X$ follows an exponential distribution with parameter $\\lambda$. Choose the correct statement(s).",
+      "options": [
+        "$P(X \\le 2) = e^{-2}$",
+        "$\\operatorname{Var}(X) = \\dfrac{1}{\\lambda^2}$",
+        "The mean of the exponential is the reciprocal of its parameter $\\lambda$.",
+        "CDF is given as $F(x) = e^{-\\lambda x}$"
+      ],
+      "correct": [1, 2]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following statement(s) is/are **incorrect**?",
+      "options": [
+        "The annual income of 1000 individuals surveyed for year 2024 is an example of time-series data.",
+        "The brand of a smartphone used by students is a categorical variable.",
+        "Educational qualifications such as elementary, secondary, and higher secondary has an ordinal scale of measurement.",
+        "Making predictions about population behavior based on sample data is a part of Descriptive Statistics."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 3, "week": 3,
+      "q": "The mean and variance of the observations $x_1, x_2, x_3, x_4, x_5$ are 4 and 5 respectively. Suppose the mean and variance of the observations $ax_1 + b, ax_2 + b, ax_3 + b, ax_4 + b, ax_5 + b$ are 16 and 45 respectively. Find the value of $a + b$, where $a > 0$.",
+      "answer": 7
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 10,
+      "q": "Let $X$ be a random variable with $E[X] = 5$ and $\\operatorname{Var}(X) = 9$. Define a new random variable $Y = aX - b$ where $a$ and $b$ are constants with $a > 0$. Find the value of $b$ such that $E[Y] = 0$ and $\\operatorname{Var}(Y) = 1$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 1.65, "max": 1.69 }
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 3, "week": 11,
+      "q": "The number of vehicles passing through a highway toll booth in a minute follows a Poisson distribution with mean $\\lambda = 4$. Find the probability that at most two vehicles pass through highway toll booth in a minute. Enter the answer correct to two decimal places. (Use: $e^4 = 54.60$, $e^{1/4} = 1.28$, $e^{-4} = 0.02$, $e^{-1/4} = 0.78$)",
+      "answer": 0.26
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 8,
+      "q": "In a class, a teacher assigns a query to three students. Each student attempts to solve the query independently. The probabilities that they are able to solve it correctly are $1/4$, $1/5$, and $1/2$ respectively. Find the probability that the query gets solved by at least one student. Enter the answer correct to one decimal place.",
+      "answer": 0.7
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 3,
+      "q": "Consider the dataset 10, 27, 32, 15 and 22. If we subtract 3 from all observations, find the difference between IQR of the new dataset and the old dataset.",
+      "answer": 0
+    },
+    {
+      "n": 10, "type": "MCQ", "marks": 1, "week": 9,
+      "context": "A deck contains 6 cards of which 2 are aces, 2 are kings and 2 are number cards. A player randomly draws 2 cards without replacement from the deck. It has the following rules:\n\n- If one card is an ace and the other is a king, the player will win ₹30.\n- If exactly one card is an ace or a king and the other is a number card, the player will win ₹10.\n- If both the cards are number cards, the player loses ₹20.\n- If both the cards are Aces or both are Kings, the player wins ₹40.\n\nLet $X$ be a random variable representing the amount gained by the player.",
+      "q": "Find the range of $X$.",
+      "options": ["$\\{20, 10, 30, 40\\}$", "$\\{-20, 10, 30, 40\\}$", "$\\{-20, 0, 10, 30, 40\\}$", "$\\{0, 10, 20, 30, 40\\}$"],
+      "correct": [1]
+    },
+    {
+      "n": 11, "type": "MCQ", "marks": 4, "week": 9,
+      "context": "A deck contains 6 cards of which 2 are aces, 2 are kings and 2 are number cards. A player randomly draws 2 cards without replacement from the deck. It has the following rules:\n\n- If one card is an ace and the other is a king, the player will win ₹30.\n- If exactly one card is an ace or a king and the other is a number card, the player will win ₹10.\n- If both the cards are number cards, the player loses ₹20.\n- If both the cards are Aces or both are Kings, the player wins ₹40.\n\nLet $X$ be a random variable representing the amount gained by the player.",
+      "q": "Find the PMF of $X$.",
+      "options": [
+        "$P(X=-20) = 2/15$, $P(X=10) = 8/15$, $P(X=30) = 4/15$, $P(X=40) = 1/15$",
+        "$P(X=20) = 1/15$, $P(X=10) = 6/15$, $P(X=30) = 6/15$, $P(X=40) = 2/15$",
+        "$P(X=-20) = 1/15$, $P(X=10) = 7/15$, $P(X=30) = 4/15$, $P(X=40) = 3/15$",
+        "$P(X=-20) = 1/15$, $P(X=10) = 8/15$, $P(X=30) = 4/15$, $P(X=40) = 2/15$"
+      ],
+      "correct": [3]
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 3, "week": 12,
+      "context": "A random variable $X$ follows a uniform distribution over the interval $[a, b]$ where $a < b$ with $E(X) = 10$ and $\\operatorname{Var}(X) = \\dfrac{16}{3}$.",
+      "q": "Find the value of $a$.",
+      "answer": 6
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 12,
+      "context": "A random variable $X$ follows a uniform distribution over the interval $[a, b]$ where $a < b$ with $E(X) = 10$ and $\\operatorname{Var}(X) = \\dfrac{16}{3}$.",
+      "q": "Find the value of $P(X \\le 12)$. Enter the answer correct to two decimal places.",
+      "answer": 0.75
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 3, "week": 7,
+      "context": "A box contains 4 red balls and 5 blue balls. Three balls are drawn at random without replacement.",
+      "q": "What is the probability that all three balls drawn are of the same colour? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.14, "max": 0.20 }
+    },
+    {
+      "n": 15, "type": "NAT", "marks": 4, "week": 8,
+      "context": "A box contains 4 red balls and 5 blue balls. Three balls are drawn at random without replacement.",
+      "q": "Let $X$ denote the number of red balls selected. Find the value of $P(X = 3 \\mid X \\ge 1)$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.02, "max": 0.08 }
+    }
+  ]
+}
