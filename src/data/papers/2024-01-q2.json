@@ -1,0 +1,140 @@
+{
+  "id": "2024-01-q2",
+  "year": 2024,
+  "term": "Jan",
+  "exam": "Quiz 2",
+  "source": "https://drive.google.com/file/d/1a-6jQfKHKDM2kkjnVCcaqoNiPsuz8Ct9/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 3, "week": 3,
+      "q": "Distance covered by a runner in the first five days of training are 3 km, 5 km, 3 km, 6 km, and 7 km. If the runner covers a distance of 4 km on the sixth day, then how does it affect his overall performance?",
+      "options": [
+        "The mean of the distances will increase.",
+        "The mode of the distances will decrease.",
+        "The median of the distances will decrease.",
+        "Range of the distances will decrease."
+      ],
+      "correct": [2]
+    },
+    {
+      "n": 2, "type": "MSQ", "marks": 2, "week": 4,
+      "q": "Which of the following statement(s) is(are) correct?",
+      "options": [
+        "Point-bi serial method is appropriate to find the association between two categorical variables.",
+        "Scatter plot is more appropriate to represent the relationship between two numerical variables.",
+        "There is no available method for determining the association between a categorical and a numerical variable.",
+        "Covariance can be computed only for two numerical variables."
+      ],
+      "correct": [1, 3]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 3, "week": 7,
+      "q": "Which of the following option(s) is(are) correct?",
+      "options": [
+        "If $A$ and $B$ are independent events, then $P(A \\cup B) = P(A) + P(B) - P(A)P(B)$.",
+        "If $A$ and $B$ are disjoint events, then $P(A \\cup B) = P(A) + P(B) - P(A)P(B)$.",
+        "If $A$ and $B$ are disjoint events, then $P(A \\cup B) = P(A) + P(B)$.",
+        "If $A$ and $B$ are independent events, then $P(A \\cup B) = P(A) \\times P(B)$."
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 3, "week": 6,
+      "q": "In how many different ways can the letters of the word ‘ENGLISH’ be arranged such that the vowels always come together?",
+      "answer": 1440
+    },
+    {
+      "n": 5, "type": "MCQ", "marks": 3, "week": 3,
+      "context": "Consider a given dataset of weights (in kg) of persons such as 50, 55, 40, 60, 99, 90, 95, 60, 80, 75.",
+      "q": "Five number summary (min, $Q_1$, $Q_2$, $Q_3$, max) of the given data is:",
+      "options": ["40, 60, 75, 90, 99", "40, 55, 67.5, 90, 99", "50, 60, 94.5, 95, 99", "50, 60, 90, 95, 99"],
+      "correct": [1]
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 1, "week": 3,
+      "context": "Consider a given dataset of weights (in kg) of persons such as 50, 55, 40, 60, 99, 90, 95, 60, 80, 75.",
+      "q": "Find the IQR (Inter-quartile range) of the given dataset.",
+      "answer": 35
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 2, "week": 7,
+      "context": "A drawer of socks contains three black socks, four blue socks, and three grey socks. Two socks are chosen at random without replacement.",
+      "q": "What is the probability that a black pair is chosen? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.04, "max": 0.10 }
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 7,
+      "context": "A drawer of socks contains three black socks, four blue socks, and three grey socks. Two socks are chosen at random without replacement.",
+      "q": "What is the probability that they are of same colour? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.24, "max": 0.30 }
+    },
+    {
+      "n": 9, "type": "MCQ", "marks": 3, "week": 7,
+      "context": "A family has two children. Assume being a male or female of a child is equally likely.",
+      "q": "Find the probability that at least one child is a boy.",
+      "options": ["$\\frac{1}{2}$", "$\\frac{1}{4}$", "$\\frac{2}{3}$", "$\\frac{3}{4}$"],
+      "correct": [3]
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 2, "week": 8,
+      "context": "A family has two children. Assume being a male or female of a child is equally likely.",
+      "q": "What is the probability that both are boys given that at least one is a boy? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.30, "max": 0.36 }
+    },
+    {
+      "n": 11, "type": "MCQ", "marks": 3, "week": 8,
+      "context": "The probabilities of $X$ and $Y$ becoming principals in a college are $4/5$ and $1/5$ respectively. The probabilities that $X$ and $Y$ if selected would introduce co-education in the college are $1/6$ and $5/6$ respectively.",
+      "q": "What is the probability that co-education will be introduced in the college?",
+      "options": ["$\\frac{2}{15}$", "$\\frac{1}{6}$", "$\\frac{5}{6}$", "$\\frac{3}{10}$"],
+      "correct": [3]
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 2, "week": 8,
+      "context": "The probabilities of $X$ and $Y$ becoming principals in a college are $4/5$ and $1/5$ respectively. The probabilities that $X$ and $Y$ if selected would introduce co-education in the college are $1/6$ and $5/6$ respectively.",
+      "q": "If co-education has been introduced in the college, then what is the probability that $X$ is principal? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.40, "max": 0.48 }
+    },
+    {
+      "n": 13, "type": "MSQ", "marks": 1, "week": 6,
+      "context": "In a school function, there are 2 violinists, 3 pianists, and 1 flutist. They have to sit in a circular order for a performance.",
+      "q": "Choose the correct options from the following:",
+      "options": ["Selection of performers will occur simultaneously.", "Selection of performers will not occur simultaneously.", "With replacement.", "Without replacement."],
+      "correct": [0, 3]
+    },
+    {
+      "n": 14, "type": "MSQ", "marks": 1, "week": 6,
+      "context": "In a school function, there are 2 violinists, 3 pianists, and 1 flutist. They have to sit in a circular order for a performance.",
+      "q": "Choose the correct options from the following:",
+      "options": ["Order matters.", "Order does not matter.", "Permutation is used.", "Combination is used."],
+      "correct": [0, 2]
+    },
+    {
+      "n": 15, "type": "MCQ", "marks": 3, "week": 6,
+      "context": "In a school function, there are 2 violinists, 3 pianists, and 1 flutist. They have to sit in a circular order for a performance.",
+      "q": "Find the number of ways in which performers can be arranged in a circular order such that no two violinists will sit together.",
+      "options": ["120", "96", "72", "672"],
+      "correct": [2]
+    },
+    {
+      "n": 16, "type": "MSQ", "marks": 1, "week": 6,
+      "context": "In a class, there are 5 students who like Statistics and 4 students who like Mathematics. A committee of three students is to be formed.",
+      "q": "Choose the correct options from the following:",
+      "options": ["Selection of students will occur simultaneously.", "Selection of students will not occur simultaneously.", "With replacement.", "Without replacement."],
+      "correct": [0, 3]
+    },
+    {
+      "n": 17, "type": "MSQ", "marks": 1, "week": 6,
+      "context": "In a class, there are 5 students who like Statistics and 4 students who like Mathematics. A committee of three students is to be formed.",
+      "q": "Choose the correct options from the following:",
+      "options": ["Order matters.", "Order does not matter.", "Permutation is used.", "Combination is used."],
+      "correct": [1, 3]
+    },
+    {
+      "n": 18, "type": "MCQ", "marks": 3, "week": 6,
+      "context": "In a class, there are 5 students who like Statistics and 4 students who like Mathematics. A committee of three students is to be formed.",
+      "q": "Find the number of ways in which the students can be selected such that at least one student likes Statistics.",
+      "options": ["70", "80", "90", "85"],
+      "correct": [1]
+    }
+  ]
+}

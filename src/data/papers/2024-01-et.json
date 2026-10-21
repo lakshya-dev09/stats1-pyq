@@ -1,0 +1,150 @@
+{
+  "id": "2024-01-et",
+  "year": 2024,
+  "term": "Jan",
+  "exam": "End Term",
+  "source": "https://drive.google.com/file/d/1WhjDu-_bU83y5eLY33cB-wXRkR7-Fyi9/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 3, "week": 11,
+      "q": "The probability of a man hitting a target is $1/4$. If he fires 5 times, then find the probability that he will hit the target at least twice.",
+      "options": ["$\\frac{1}{4}$", "$\\frac{486}{1024}$", "$\\frac{648}{1024}$", "$\\frac{376}{1024}$"],
+      "correct": [3]
+    },
+    {
+      "n": 2, "type": "MSQ", "marks": 2, "week": 12,
+      "q": "If $X \\sim \\text{Normal}(\\mu, \\sigma^2)$, then choose the correct option(s) from the following.",
+      "options": [
+        "$P(X \\le \\mu) \\ne P(X > \\mu)$",
+        "$P(X \\le \\mu) = P(X > \\mu) = 0.5$",
+        "If $Z = \\frac{X - \\mu}{\\sigma^2}$, then $Z \\sim N(\\mu, 1)$.",
+        "If $Z = \\frac{X - \\mu}{\\sigma}$, then $Z \\sim N(0, 1)$."
+      ],
+      "correct": [1, 3]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 2, "week": 9,
+      "q": "Choose the correct option(s) from the following.",
+      "options": [
+        "If $X \\sim \\text{Bernoulli}(p)$, then $E(X) = p$.",
+        "Range of cumulative distribution function of a discrete random variable is $(-\\infty, +\\infty)$.",
+        "Number of attempts to clear a qualifier exam is a discrete variable.",
+        "Hypergeometric distribution comes under continuous distribution."
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "n": 4, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following option(s) is/are correct for a variable with interval scale of measurement?",
+      "options": [
+        "Difference between the values of a variable can be evaluated.",
+        "Order of the data is meaningful.",
+        "Multiplication and division of values of a variable is possible.",
+        "It has an absolute zero."
+      ],
+      "correct": [0, 1]
+    },
+    {
+      "n": 5, "type": "MSQ", "marks": 2, "week": 2,
+      "q": "Which of the following statement(s) is(are) correct?",
+      "options": [
+        "We must preserve the order of an ordinal data in a bar chart.",
+        "Mode is not defined for an ordinal data.",
+        "Mean can be calculated for a categorical data.",
+        "Covariance can be computed only for two numerical variables."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 3, "week": 3,
+      "q": "If the mean of the observations $2a$, 10, $3a$, 50 and 40 is 30, then find the median of the dataset.",
+      "answer": 30
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 3, "week": 10,
+      "q": "The probability mass function of a discrete random variable $X$ is given by\n\n| $x$ | $-1$ | 0 | 1 |\n|---|---|---|---|\n| $P(X = x)$ | $1/6$ | $1/2$ | $1/3$ |\n\nFind the value of $E(2X + 1)^2$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 3.62, "max": 3.70 }
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 4, "week": 5,
+      "q": "In the first semester of B.S. degree, a student is expected to take 4 subjects. The grades for each subject can be S (10 points), A (9 points), B (8 points), C (7 points), D (6 points), E (5 points) and F (Fail). As per the rules, an enrolled student should obtain a minimum grade E in each subject to get promoted to the next semester. What is the total number of possible ways in which a student can get promoted?",
+      "answer": 1296
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 4, "week": 3,
+      "q": "The mean and sample standard deviation of the dataset consisting of 8 observations is 15 and 11 respectively. Later it is noted that one observation 13 is wrongly noted as 10. What is the mean of the original dataset? Enter the answer correct to two decimal places.",
+      "answer": { "min": 15.08, "max": 15.68 }
+    },
+    {
+      "n": 10, "type": "MCQ", "marks": 3, "week": 9,
+      "context": "In a company, 120 employees are divided into three departments: Marketing, Finance and IT. The number of employees in each department is as follows: 36 in Marketing, 40 in Finance and 44 in IT. An employee, out of 120, is randomly selected for a presentation. Let $X$ denote the number of employees in the department to which that employee belongs.",
+      "q": "Identify the correct distribution of $X$.",
+      "options": [
+        "$P(X=36) = 1/3$, $P(X=40) = 1/3$, $P(X=44) = 1/3$",
+        "$P(X=36) = 3/10$, $P(X=40) = 1/3$, $P(X=44) = 11/30$",
+        "$P(X=36) = 1/3$, $P(X=40) = 11/30$, $P(X=44) = 3/10$",
+        "$P(X=36) = 3/10$, $P(X=40) = 11/30$, $P(X=44) = 1/3$"
+      ],
+      "correct": [1]
+    },
+    {
+      "n": 11, "type": "NAT", "marks": 2, "week": 10,
+      "context": "In a company, 120 employees are divided into three departments: Marketing, Finance and IT. The number of employees in each department is as follows: 36 in Marketing, 40 in Finance and 44 in IT. An employee, out of 120, is randomly selected for a presentation. Let $X$ denote the number of employees in the department to which that employee belongs.",
+      "q": "Find the expected value of $X$. Enter the answer correct to two decimal places.",
+      "answer": { "min": 40.24, "max": 40.30 }
+    },
+    {
+      "n": 12, "type": "NAT", "marks": 3, "week": 12,
+      "context": "A manufacturing company produces steel rods with lengths between 20 cm and 40 cm. Assume length of steel rods follows a uniform distribution.",
+      "q": "If $P(X \\le k) = P(X > k)$, then find the value of $k$.",
+      "answer": 30
+    },
+    {
+      "n": 13, "type": "MCQ", "marks": 2, "week": 12,
+      "context": "A manufacturing company produces steel rods with lengths between 20 cm and 40 cm. Assume length of steel rods follows a uniform distribution.",
+      "q": "What is the probability that a randomly selected steel rod will have a length of more than 25 cm?",
+      "options": ["$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{1}{4}$", "$\\frac{3}{4}$"],
+      "correct": [3]
+    },
+    {
+      "n": 14, "type": "MCQ", "marks": 2, "week": 12,
+      "context": "Suppose the time taken by a delivery service to deliver a package (in hours) follows an exponential distribution with a mean delivery time of 10 hours. Someone places an order just before you.",
+      "q": "What is the probability that you will have to wait more than 15 hours for your package to be delivered?",
+      "options": ["$1 - e^{-1.5}$", "$e^{-1.5}$", "$1 - e^{-0.67}$", "$e^{-0.67}$"],
+      "correct": [1]
+    },
+    {
+      "n": 15, "type": "MCQ", "marks": 3, "week": 12,
+      "context": "Suppose the time taken by a delivery service to deliver a package (in hours) follows an exponential distribution with a mean delivery time of 10 hours. Someone places an order just before you.",
+      "q": "What is the probability that you will have to wait between 15 hours and 30 hours?",
+      "options": ["$e^{-1.5} - e^{-3}$", "$e^{-3} - e^{-1.5}$", "$e^{-0.67} - e^{-0.33}$", "$e^{-0.33} - e^{-0.67}$"],
+      "correct": [0]
+    },
+    {
+      "n": 16, "type": "MCQ", "marks": 3, "week": 11,
+      "context": "Suppose $X \\sim \\text{Poisson}(\\lambda)$.",
+      "q": "Find the value of $\\lambda$ for which $3P(X = 3) = 2P(X = 2) + 4P(X = 1)$.",
+      "options": ["2", "4", "1", "$-2$"],
+      "correct": [1]
+    },
+    {
+      "n": 17, "type": "NAT", "marks": 2, "week": 11,
+      "context": "Suppose $X \\sim \\text{Poisson}(\\lambda)$, where $\\lambda$ satisfies $3P(X = 3) = 2P(X = 2) + 4P(X = 1)$.",
+      "q": "What is the value of $\\dfrac{P(X \\le 1)}{P(X \\le 2)}$? Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.35, "max": 0.41 }
+    },
+    {
+      "n": 18, "type": "MCQ", "marks": 2, "week": 8,
+      "context": "Table Q.1 represents the data of status of a disease and blood concentration in the patients.\n\n| Test | $D+$ | $D-$ |\n|---|---|---|\n| $T+$ | 25 | 35 |\n| $T-$ | 50 | 20 |\n\nwhere $D+$ = disease present, $D-$ = disease absent, $T+$ = high blood concentration (positive test), $T-$ = low blood concentration (negative test).",
+      "q": "What is the probability that a patient has the disease and the test is positive?",
+      "options": ["$\\frac{5}{26}$", "$\\frac{5}{14}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$"],
+      "correct": [0]
+    },
+    {
+      "n": 19, "type": "NAT", "marks": 3, "week": 8,
+      "context": "Table Q.1 represents the data of status of a disease and blood concentration in the patients.\n\n| Test | $D+$ | $D-$ |\n|---|---|---|\n| $T+$ | 25 | 35 |\n| $T-$ | 50 | 20 |\n\nwhere $D+$ = disease present, $D-$ = disease absent, $T+$ = high blood concentration (positive test), $T-$ = low blood concentration (negative test).",
+      "q": "Find the probability that a patient has the disease given that the test is positive. Enter the answer correct to two decimal places.",
+      "answer": { "min": 0.39, "max": 0.45 }
+    }
+  ]
+}
