@@ -1,0 +1,108 @@
+{
+  "id": "2024-09-q1",
+  "year": 2024,
+  "term": "Sep",
+  "exam": "Quiz 1",
+  "source": "https://drive.google.com/file/d/145MkA5F9Qz_vYkp_BsmUydTzdPfQBtWj/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 2, "week": 1,
+      "context": "An analyst wants to analyse the salary of employees in different organizations in a city. To analyse this, he has selected an organization and the data of salaries is tabulated as shown in Table 1.\n\n| Employee name | Post | Salary (in thousand rupees) |\n|---|---|---|\n| Sagar | Assistant manager | 80 |\n| Sanjana | Analyst | 60 |\n| Rohit | Junior developer | 50 |\n| Jenny | Senior developer | 60 |\n| Ross | Consultant | 50 |",
+      "q": "Based on the data collected from an organisation, an analyst made a statement that the average salary of an employee is 50,000 rupees in different organizations in the city. The given statement of the analyst is based on which kind of statistical analysis?",
+      "options": ["Descriptive statistics", "Inferential statistics"],
+      "correct": [1]
+    },
+    {
+      "n": 2, "type": "NAT", "marks": 3, "week": 3,
+      "context": "An analyst wants to analyse the salary of employees in different organizations in a city. To analyse this, he has selected an organization and the data of salaries is tabulated as shown in Table 1.\n\n| Employee name | Post | Salary (in thousand rupees) |\n|---|---|---|\n| Sagar | Assistant manager | 80 |\n| Sanjana | Analyst | 60 |\n| Rohit | Junior developer | 50 |\n| Jenny | Senior developer | 60 |\n| Ross | Consultant | 50 |",
+      "q": "What is the sample standard deviation of salary (in thousand rupees)? Enter the answer correct to 2 decimal places.",
+      "answer": { "min": 12.22, "max": 12.28 }
+    },
+    {
+      "n": 3, "type": "MCQ", "marks": 2, "week": 2,
+      "context": "Refer to the bar chart displaying the number of votes for people's preferred ice cream flavors.",
+      "figure": "2024-09-q1-icecream.png",
+      "q": "What is the mode of the dataset?",
+      "options": ["Strawberry", "40", "Chocolate", "70"],
+      "correct": [2]
+    },
+    {
+      "n": 4, "type": "MCQ", "marks": 3, "week": 2,
+      "context": "Refer to the bar chart displaying the number of votes for people's preferred ice cream flavors.",
+      "figure": "2024-09-q1-icecream.png",
+      "q": "What percentage of the total votes is represented by Butterscotch and Strawberry ice creams combined?",
+      "options": ["31.81%", "20%", "22.72%", "50%"],
+      "correct": [0]
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 3, "week": 3,
+      "context": "Answer based on the given stem-and-leaf plot:\n\n| Stem | Leaf |\n|---|---|\n| 1 | 2, 4, 5 |\n| 2 | 0, 3, 4, 5 |\n| 3 | 1, 5, 5, 7 |\n| 4 | 0, 4, 6 |\n\nHere 1 | 5 represents 15.",
+      "q": "What is the median of the data set represented by the stem-and-leaf plot?",
+      "answer": 28
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 2, "week": 3,
+      "context": "Answer based on the given stem-and-leaf plot:\n\n| Stem | Leaf |\n|---|---|\n| 1 | 2, 4, 5 |\n| 2 | 0, 3, 4, 5 |\n| 3 | 1, 5, 5, 7 |\n| 4 | 0, 4, 6 |\n\nHere 1 | 5 represents 15.",
+      "q": "Calculate the range of the data set.",
+      "answer": 34
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 3, "week": 2,
+      "context": "The frequency distribution table below shows different types of cuisines preferred by 150 people.\n\n| Cuisine | Frequency | Relative frequency |\n|---|---|---|\n| Italian | 45 |  |\n| Chinese | 35 |  |\n| Mexican |  | $x$ |\n| Indian | 20 |  |\n| Thai | $y$ | 0.1 |\n| Greek | 10 |  |",
+      "q": "What is the value of $y$ (frequency of Thai cuisine)?",
+      "answer": 15
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 2,
+      "context": "The frequency distribution table below shows different types of cuisines preferred by 150 people.\n\n| Cuisine | Frequency | Relative frequency |\n|---|---|---|\n| Italian | 45 |  |\n| Chinese | 35 |  |\n| Mexican |  | $x$ |\n| Indian | 20 |  |\n| Thai | $y$ | 0.1 |\n| Greek | 10 |  |",
+      "q": "What is the value of $x$ (relative frequency of Mexican cuisine)? Enter the answer correct to 2 decimal places.",
+      "answer": { "min": 0.15, "max": 0.17 }
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 3, "week": 4,
+      "context": "Answer based on the given dataset (Table 2):\n\n| $X$ | $-5$ | $-4$ | $-3$ | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $Y$ | $-13$ | $-12$ | $-5$ | 13 | 12 | 5 |",
+      "q": "Find the sample covariance between $X$ and $Y$ for the dataset given in Table 2.",
+      "answer": 48
+    },
+    {
+      "n": 10, "type": "NAT", "marks": 3, "week": 4,
+      "context": "Answer based on the given dataset (Table 2):\n\n| $X$ | $-5$ | $-4$ | $-3$ | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $Y$ | $-13$ | $-12$ | $-5$ | 13 | 12 | 5 |",
+      "q": "Find the sample correlation coefficient ($r$) between $X$ and $Y$ for the dataset given in Table 2. Enter the answer correct to 3 decimal places.",
+      "answer": { "min": 0.921, "max": 0.925 }
+    },
+    {
+      "n": 11, "type": "MSQ", "marks": 3, "week": 1,
+      "q": "Which of the following statements is/are true?",
+      "options": [
+        "A sample is the subset of a population.",
+        "Numerical variables can have all the properties of ordinal and nominal scales of measurement.",
+        "Descriptive measures like Mean, Median, and Mode all of them can be used to summarize the categorical variable.",
+        "The correlation coefficient measures the strength of the linear association between two numerical variables."
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "n": 12, "type": "MSQ", "marks": 3, "week": 2,
+      "q": "If a categorical variable is measured on an ordinal scale, which of the following statistical measures is(are) appropriate?",
+      "options": ["Mean", "Median", "Mode", "Variance"],
+      "correct": [1, 2]
+    },
+    {
+      "n": 13, "type": "MSQ", "marks": 3, "week": 2,
+      "q": "A bar chart represents the T-shirt sizes worn by the members of a sports club: Small 8, Medium 7, Large 4, Extra Large 5. Which of the following option(s) is(are) the best way to represent the data? Each option describes a bar chart, with bars listed left to right.",
+      "options": [
+        "Large 4, Medium 7, Small 8, Extra Large 5",
+        "Small 8, Medium 7, Extra Large 5, Large 4",
+        "Extra Large 5, Large 4, Medium 7, Small 8",
+        "Small 8, Medium 7, Large 4, Extra Large 5"
+      ],
+      "correct": [2, 3],
+      "note": "In the original paper the options are bar-chart images; they are described here as the bar heights read left to right. Size is ordinal, so the bars should keep the size order (either direction)."
+    },
+    {
+      "n": 14, "type": "NAT", "marks": 4, "week": 3,
+      "q": "In an exam, students' scores have an interquartile range (IQR) of 20. The teacher decides to first add 5 marks to each student's score and then multiply each adjusted score by 2. What will be the interquartile range now?",
+      "answer": 40
+    }
+  ]
+}

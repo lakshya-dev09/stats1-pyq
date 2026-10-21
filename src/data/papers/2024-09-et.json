@@ -1,0 +1,123 @@
+{
+  "id": "2024-09-et",
+  "year": 2024,
+  "term": "Sep",
+  "exam": "End Term",
+  "source": "https://drive.google.com/file/d/1Iu5GXXnQ2iUYgD8iHQAjFryEuUV_Yq2S/view",
+  "questions": [
+    {
+      "n": 1, "type": "MCQ", "marks": 3, "week": 2,
+      "context": "A family has a monthly income of ₹50,000. Their expenditures are divided into the categories shown in Figure 1 (Household Budget Distribution).",
+      "figure": "2024-09-et-budget.png",
+      "q": "What is the difference between the expenditure on Rent and Groceries?",
+      "options": ["₹2000", "₹2500", "₹1500", "₹2700"],
+      "correct": [1]
+    },
+    {
+      "n": 2, "type": "MCQ", "marks": 2, "week": 2,
+      "context": "A family has a monthly income of ₹50,000. Their expenditures are divided into the categories shown in Figure 1 (Household Budget Distribution).",
+      "figure": "2024-09-et-budget.png",
+      "q": "How much money does the family spend on Utilities and Entertainment combined?",
+      "options": ["₹12,000", "₹12,500", "₹15,000", "₹15,200"],
+      "correct": [1]
+    },
+    {
+      "n": 3, "type": "MSQ", "marks": 2, "week": 1,
+      "q": "Which of the following options is/are **incorrect** for a variable having ratio scale of measurement?",
+      "options": [
+        "Difference between the values of a variable can not be evaluated.",
+        "Order of the data is meaningful.",
+        "Multiplication and division of values of a variable is possible.",
+        "It does not have an absolute zero."
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 4, "type": "NAT", "marks": 4, "week": 3,
+      "q": "The average of 15 observations is 48. If the average of the first 8 observations is 42 and the average of the last 8 observations is 54, what is the value of the 8th observation?",
+      "answer": 48
+    },
+    {
+      "n": 5, "type": "NAT", "marks": 4, "week": 12,
+      "q": "A certain type of electronic device has a lifetime that follows an exponential distribution with a mean of 500 hours. If the device has already worked for 300 hours without failing, what is the probability that it will continue to function for at least another 200 hours? Enter the answer correct to 2 decimal places.",
+      "answer": { "min": 0.64, "max": 0.70 }
+    },
+    {
+      "n": 6, "type": "NAT", "marks": 2, "week": 6,
+      "context": "A university needs to form a research team of 4 students out of total 8 students.",
+      "q": "In how many ways can the team be formed if two particular students must be included?",
+      "answer": 15
+    },
+    {
+      "n": 7, "type": "NAT", "marks": 2, "week": 6,
+      "context": "A university needs to form a research team of 4 students out of total 8 students.",
+      "q": "In how many ways can the team be formed if two particular students must not be included?",
+      "answer": 15
+    },
+    {
+      "n": 8, "type": "NAT", "marks": 3, "week": 6,
+      "q": "In how many different ways can the letters of the word “LEADING” be arranged such that the vowels always come together?",
+      "answer": 720
+    },
+    {
+      "n": 9, "type": "NAT", "marks": 2, "week": 7,
+      "q": "In a survey of 100 people, 60 like tea, 40 like coffee, and 20 like both tea and coffee. What is the probability that a person chosen at random likes either tea or coffee? Enter the answer correct to 1 decimal place.",
+      "answer": 0.8
+    },
+    {
+      "n": 10, "type": "MSQ", "marks": 3, "week": 8,
+      "q": "A jar contains 5 red balls and 7 blue balls. Two balls are drawn without replacement. Let event $A$ be the event that the first ball drawn is red, and event $B$ be the event that the second ball drawn is blue. Which of the following statement(s) is(are) true?",
+      "options": ["$P(A) = \\frac{5}{12}$", "$P(B) = \\frac{7}{12}$", "$P(A \\cap B) = \\frac{35}{132}$", "$A$ and $B$ are independent events."],
+      "correct": [0, 2],
+      "note": "This is the official key. Note that $P(B) = \\frac{5}{12}\\cdot\\frac{7}{11} + \\frac{7}{12}\\cdot\\frac{6}{11} = \\frac{7}{12}$, so option B is also true by direct calculation."
+    },
+    {
+      "n": 11, "type": "MSQ", "marks": 3, "week": 12,
+      "q": "For $X \\sim \\text{Normal}(\\mu = 65, \\sigma^2 = 36)$ which of the following option(s) is(are) correct?",
+      "options": [
+        "$P(X \\le 65) = 0.5$",
+        "$P(59 \\le X \\le 71) = P(X \\le 59) + P(X \\le 71)$",
+        "$P(59 \\le X \\le 71) = P(X \\le 59) - P(X \\le 71)$",
+        "$P(59 \\le X \\le 71) = P(X \\le 71) - P(X \\le 59)$"
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "n": 12, "type": "MCQ", "marks": 4, "week": 10,
+      "context": "The probability mass function of a discrete random variable $Y$ is given by:\n\n| $Y$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $P(Y = y)$ | $\\frac{1}{5}$ | $\\frac{2}{5}$ | $\\frac{1}{5}$ | $\\frac{1}{5}$ |",
+      "q": "Find the value of $E(Y^2 + 5Y)$.",
+      "options": ["15", "10", "20", "12"],
+      "correct": [1]
+    },
+    {
+      "n": 13, "type": "NAT", "marks": 2, "week": 10,
+      "context": "The probability mass function of a discrete random variable $Y$ is given by:\n\n| $Y$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $P(Y = y)$ | $\\frac{1}{5}$ | $\\frac{2}{5}$ | $\\frac{1}{5}$ | $\\frac{1}{5}$ |",
+      "q": "Find the value of $\\operatorname{Var}(Y)$. Enter the answer correct to 2 decimal places.",
+      "answer": { "min": 1.01, "max": 1.07 }
+    },
+    {
+      "n": 14, "type": "MCQ", "marks": 3, "week": 11,
+      "q": "If the Indian cricket team has a 60% chance of winning a match, and they play a 5-match series with each match being independent of the others, what is the probability that the team will win at least 4 matches?",
+      "options": ["0.26", "0.078", "0.34", "0.68"],
+      "correct": [2]
+    },
+    {
+      "n": 15, "type": "MCQ", "marks": 3, "week": 9,
+      "q": "A company has 5 team leads and 15 team members. A small working group of 4 individuals is to be formed to tackle a special project. Let the random variable $X$ represent the number of team leads in the working group. Find the possible values that $X$ can take.",
+      "options": ["$\\{0,1,2,3,4\\}$", "$\\{0,1,2,3\\}$", "$\\{0,1,2\\}$", "$\\{0,1,2,3,4,5\\}$"],
+      "correct": [0]
+    },
+    {
+      "n": 16, "type": "MCQ", "marks": 4, "week": 11,
+      "q": "The number of customers entering in a store follows a Poisson distribution with an average rate of 12 customers per hour. What is the probability that exactly 5 customers will enter the store in a 15-minute period?",
+      "options": ["$\\dfrac{e^{-5}(5)^5}{5!}$", "$\\dfrac{e^{-0.25}(0.25)^5}{5!}$", "$\\dfrac{e^{-12}(5)^{12}}{12!}$", "$\\dfrac{e^{-3}(3)^5}{5!}$"],
+      "correct": [3]
+    },
+    {
+      "n": 17, "type": "MCQ", "marks": 4, "week": 12,
+      "q": "Metros on a certain station arrive uniformly after every 5 minutes. If a person arrives at the metro station at random, then what is the probability that he has to wait at least 3 minutes?",
+      "options": ["$\\frac{3}{5}$", "$\\frac{2}{5}$", "0", "$\\frac{1}{3}$"],
+      "correct": [1]
+    }
+  ]
+}
